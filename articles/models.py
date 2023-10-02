@@ -10,8 +10,8 @@ class Article(models.Model):
 
 
 class Like(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    game = models.ForeignKey(Game, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='like_user')
+    game = models.ForeignKey(Article, on_delete=models.CASCADE, blank=True, null=True)
 
     def __str__(self):
         return f'{self.user} - {self.game}'

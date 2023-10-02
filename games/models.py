@@ -36,7 +36,7 @@ class Platform(models.Model):
 
 class Favourite(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    game = models.ForeignKey(Game, on_delete=models.CASCADE)
+    game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name='game_favorite')
 
     def __str__(self):
         return f'{self.user} - {self.game}'
