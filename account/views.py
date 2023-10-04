@@ -21,10 +21,8 @@ def login_views(request):
     else:
         form = LoginForm()
 
-
-
-
-
     return render(request, 'registration/login.html', {'form':form})
 
 
+def index_views(request):
+    return HttpResponse('index_page')
