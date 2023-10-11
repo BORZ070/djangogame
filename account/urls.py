@@ -2,8 +2,7 @@
 from django.urls import path
 from django.contrib.auth import views as auth_views
 
-from account.views import dashboard
-
+from account.views import dashboard, register
 
 urlpatterns = [
     # login_path
@@ -19,7 +18,17 @@ urlpatterns = [
     path('password-reset/done/', auth_views.PasswordResetDoneView.as_view(), name='password_reset_done'),
     path('password-reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
     path('password-reset/complete/', auth_views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+    # register
+    path('register/',register, name='register'),
+
+
+
+
+
+
+
+
+
     # profile
     path('', dashboard, name='dashboard')
-
 ]
