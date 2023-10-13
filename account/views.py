@@ -30,6 +30,9 @@ def register(request):
 
 
 
+
+
+
 # def login_views(request):
 #     if request.method == 'POST':
 #         form = LoginForm(request.POST)
