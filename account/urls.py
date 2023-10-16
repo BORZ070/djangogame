@@ -2,7 +2,7 @@
 from django.urls import path
 from django.contrib.auth import views as auth_views
 
-from account.views import dashboard, register
+from account.views import dashboard, register, edit
 
 urlpatterns = [
     # login_path
@@ -20,6 +20,8 @@ urlpatterns = [
     path('password-reset/complete/', auth_views.PasswordResetCompleteView.as_view(), name='password_reset_complete'),
     # register
     path('register/',register, name='register'),
+    #edit
+    path('edit/',edit, name='edit'),
 
 
 
