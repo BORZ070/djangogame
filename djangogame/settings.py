@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mkqshqo(0n4fe@5zc1z)q%$prn0j+-id6927@uld3^h*nbubm%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'games.apps.GamesConfig',
     'articles',
+    'sslserver',
+    'social_django',
+    'django_extensions',
+
 
 
 ]
@@ -139,7 +143,10 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend',
                            'account.authentication.EmailAuthBackend',
-                           # 'social_core.backends.google.GoogleOAuth2',
+                           'social_core.backends.google.GoogleOAuth2',
+
+
                            ]
 
-
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '130528158295-qtk9029ptsi8qqvmcqmekla3pcopteca.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'

@@ -31,6 +31,7 @@ urlpatterns = [
 
 
 
+
     # profile
     path('', dashboard, name='dashboard')
 ]
