@@ -9,7 +9,8 @@ urlpatterns = [
     path('account/', include('account.urls')),
     path('', index_views, name='index_page'),
     path('social-auth/', include('social_django.urls', namespace='social')),
-
+    path('summernote/', include('django_summernote.urls')),
+    path('article/', include('articles.urls')),
 
 
 ]

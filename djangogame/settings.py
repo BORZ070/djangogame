@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'sslserver',
     'social_django',
     'django_extensions',
+    'django_summernote',
 
 
 

@@ -5,7 +5,8 @@ from games.models import Game
 
 class Article(models.Model):
     title = models.CharField(max_length=50)
-    text = models.CharField(max_length=500)
+
+    text = models.TextField()
     image = models.ImageField(upload_to='title_article')
 
 
