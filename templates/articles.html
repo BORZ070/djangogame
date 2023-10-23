@@ -6,23 +6,11 @@
 </head>
 <body>
 
-{% for article in articles %}
+{% for article in articles_with_like_count %}
 
-    {{ article.title }}
-
+    {{ article.title }} - {{ article.like_count }}
+<br>
 {% endfor%}
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
