@@ -1,5 +1,7 @@
 from django.conf import settings
 from django.db import models
+from django.urls import reverse
+
 from games.models import Game
 
 
@@ -11,6 +13,9 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('article_detail', args=[self.pk])
 
 
 class Like(models.Model):

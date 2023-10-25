@@ -8,8 +8,9 @@
 
 {% for article in articles_with_like_count %}
 
-    {{ article.title }} - {{ article.like_count }}
+<li><a class="nav-link scrollto" href="{{ article.get_absolute_url }} ">{{ article.title }}</a></li>- {{ article.like_count }}
 <br>
+
 {% endfor%}
 
 </body>
