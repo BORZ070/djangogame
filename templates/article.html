@@ -7,11 +7,22 @@
 <body>
 
 {{ article.title }}
+<br>
+like: {{ like_count }}
+<br>
+id: {{ article.id }}
+<br>
+user.id: {{ request.user.id }}
 
 
+<form action="{% url 'like_articles' %}" method="POST">
+    {% csrf_token %}
+    <input type="hidden" name="user_id" value="{{ request.user.id }}">
+    <input type="hidden" name="article_id" value="{{ article.id }}">
+    <button type="submit">Like</button>
 
+</form>
 
-{{ like_count }}
 
 </body>
 </html>

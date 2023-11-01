@@ -1,6 +1,6 @@
 from django.db.models import Count
-from django.shortcuts import render
-from articles.models import Article
+from django.shortcuts import render, redirect
+from articles.models import Article,Like
 
 
 def list_views(request):
@@ -12,3 +12,18 @@ def detail_views(request, pk):
     article = Article.objects.get(pk=pk)
     like_count = len(article.like_set.all())
     return render(request,'article.html', {'article':article, 'like_count':like_count})
+
+def like_articles_views(request):
+    referer = request.META.get('HTTP_REFERER')
+    user_id = request.POST.get('user_id')
+    article_id = request.POST.get('article_id')
+
+    self_like = Like.objects.filter(user_id=user_id, article_id=article_id).exists()
+    if self_like:
+        article_like = Like.objects.filter(user_id=user_id, article_id=article_id)
+        article_like.delete()
+    else:
+        article_like = Like(user_id=user_id, article_id=article_id)
+        article_like.save()
+
+    return redirect(referer)
