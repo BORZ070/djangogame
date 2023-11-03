@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+{% load thumbnail %}
 <body>
-
+    <a><img src="{% thumbnail article.image 100x100 crop %}" class="card-img-top"></a>
+<br>
 {{ article.title }}
 <br>
-like: {{ like_count }}
+info: {{ article.text|safe }}
+<br>
+like: <span id="like-count">{{ like_count }}</span>
 <br>
 id: {{ article.id }}
 <br>
@@ -23,6 +30,31 @@ user.id: {{ request.user.id }}
 
 </form>
 
+<script>
+$(document).ready(function() {
+    $('form').submit(function(event) {
+        event.preventDefault();
+
+        var form = $(this);
+        var formData = form.serialize();
+
+        $.ajax({
+            type: 'POST',
+            url: form.attr('action'),
+            data: formData,
+            success: function(response) {
+                var newLikeCount = response.like_count;  // сервер возвращает новое количество лайков.
+                {#var newButton_label = response.button_label;  // сервер возвращает новое имя кнопки#}
+                $('#like-count').text(newLikeCount);  // Обновляет отображаемое количество лайков.
+                {#$('#button_label').text(newButton_label);  // Обновляет отображаемое имя кнопки.#}
+            },
+            error: function(xhr, status, error) {
+                console.error(error);
+            }
+        });
+    });
+});
+</script>
 
 </body>
 </html>
