@@ -24,3 +24,11 @@ class Like(models.Model):
 
     def __str__(self):
         return f'{self.user} - {self.article}'
+
+
+class Favorite(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='favorite_user')
+    article = models.ForeignKey(Article, on_delete=models.CASCADE, blank=True, null=True)
+
+    def __str__(self):
+        return f'{self.user} - {self.article}'

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from articles.models import Article, Like
+from articles.models import Article, Like, Favorite
 from django_summernote.admin import SummernoteModelAdmin
 
 @admin.register(Article)
@@ -9,6 +9,7 @@ class ArticleAdmin(SummernoteModelAdmin):
 
 
 admin.site.register(Like)
+admin.site.register(Favorite)
 
 
 
