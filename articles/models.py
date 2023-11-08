@@ -7,9 +7,9 @@ from games.models import Game
 
 class Article(models.Model):
     title = models.CharField(max_length=50)
-
     text = models.TextField()
     image = models.ImageField(upload_to='title_article')
+    publish = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title

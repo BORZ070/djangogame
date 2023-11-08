@@ -6,8 +6,10 @@ from django.http import JsonResponse
 
 def list_views(request):
     articles_with_like_count = Article.objects.annotate(like_count=Count('like'))
+    articles_with_like_count = articles_with_like_count.filter(publish=True)
 
     return render(request, 'articles.html', {'articles_with_like_count':articles_with_like_count})
+
 
 def detail_views(request, pk):
 
@@ -64,3 +66,5 @@ def favorite_articles_views(request):
         f_button_label = 'Unfavorire'
 
     return JsonResponse({'f_button_label':f_button_label})
+
+
