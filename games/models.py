@@ -19,6 +19,7 @@ class Game(models.Model):
     data = models.CharField(max_length=50)
     genre = models.ForeignKey(Genre, on_delete=models.PROTECT)
     name = models.CharField(max_length=50)
+    info = models.TextField()
     publisher = models.ForeignKey(Publisher, on_delete=models.PROTECT)
     image = models.ImageField(upload_to='game_main')
     price = models.IntegerField()
