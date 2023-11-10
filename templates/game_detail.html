@@ -13,27 +13,32 @@
 <br>
 {{ game.name }}
 <br>
-info: {{ game. }}
+info: {{ game.info }}
+
 {# Кнопка лайка #}
-<form action="{% url 'like_articles' %}" method="POST">
+<form action="{% url 'games_like' %}" method="POST">
 
     {% csrf_token %}
     <input type="hidden" name="user_id" value="{{ request.user.id }}">
-    <input type="hidden" name="article_id" value="{{ article.id }}">
+    <input type="hidden" name="game_id" value="{{ game.id }}">
     like: <span id="like-count">{{ like_count }}</span>
     <button type="submit" id="button_label">{{ button_label }}</button>
 
 </form>
     <br>
 {# Кнопки избранного #}
-<form action="{% url 'favorite_articles' %}" method="POST">
+<form action="{% url 'games_favourite' %}" method="POST">
 
     {% csrf_token %}
     <input type="hidden" name="user_id" value="{{ request.user.id }}">
-    <input type="hidden" name="article_id" value="{{ article.id }}">
+    <input type="hidden" name="game_id" value="{{ game.id }}">
     <button type="submit" id="f_button_label">{{ f_button_label }}</button>
 
 </form>
+
+
+
+
 
 
 

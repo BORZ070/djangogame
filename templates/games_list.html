@@ -8,8 +8,7 @@
 {% load thumbnail %}
 {% for game in games_with_like_count %}
 
-    <a href=""><img src="{% thumbnail game.image 100x100 crop %}" class="card-img-top" alt="..."></a>
-{#    <a href="{% url 'game_detail' game.id %}"><img src="{% thumbnail game.image 100x100 crop %}" class="card-img-top" alt="..."></a>#}
+    <a href="{% url 'games_detail' game.id %}"><img src="{% thumbnail game.image 100x100 crop %}" class="card-img-top" alt="..."></a>
 
 <li><a class="nav-link scrollto" href="{{ game.get_absolute_url }} ">{{ game.name }}</a></li>- {{ game.like_count }}
 {% endfor%}

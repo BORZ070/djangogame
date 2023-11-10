@@ -2,6 +2,7 @@ from django.db.models import Count
 from django.shortcuts import render, redirect
 from articles.models import Article, Like, Favorite
 from django.http import JsonResponse
+from articles.forms import ArticleEditForm
 
 
 def list_views(request):
@@ -66,5 +67,14 @@ def favorite_articles_views(request):
         f_button_label = 'Unfavorire'
 
     return JsonResponse({'f_button_label':f_button_label})
+
+
+def edit_article(request, pk):
+    article = Article.objects.get(id=pk)
+    form = ArticleEditForm(instance=article)
+    print(pk)
+    print(form)
+
+    return render(request, 'edit_article.html', {'form':form, 'article':article})
 
 

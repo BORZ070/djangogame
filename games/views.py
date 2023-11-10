@@ -27,16 +27,15 @@ def detail_views(request, pk):
     else:
         f_button_label = 'Favorite'
 
-    return render(request,'', {'game':game, 'like_count':like_count, 'button_label':button_label, 'f_button_label':f_button_label})
+    return render(request,'game_detail.html', {'game':game, 'like_count':like_count, 'button_label':button_label, 'f_button_label':f_button_label})
 
 
 def like_game_views(request):
     user_id = request.POST.get('user_id')
     game_id = request.POST.get('game_id')
-
     self_like = Like.objects.filter(user_id=user_id, game_id=game_id).exists()
     if self_like:
-        game_like = Game.objects.filter(user_id=user_id, game_id=game_id)
+        game_like = Like.objects.filter(user_id=user_id, game_id=game_id)
         game_like.delete()
         button_label = 'Like'
     else:
@@ -49,11 +48,11 @@ def like_game_views(request):
     return JsonResponse({'like_count':like_count, 'button_label':button_label})
 
 
+
 def favourite_game_views(request):
 
     user_id = request.POST.get('user_id')
     game_id = request.POST.get('game_id')
-
     self_favourite = Favourite.objects.filter(user_id=user_id, game_id=game_id).exists()
     if self_favourite:
         game_favourite = Favourite.objects.filter(user_id=user_id, game_id=game_id)

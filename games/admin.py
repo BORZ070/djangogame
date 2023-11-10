@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django_summernote.admin import SummernoteModelAdmin
 
-from  games.models import Game, Genre, Publisher
+from  games.models import Game, Genre, Publisher, Like, Favourite
 @admin.register(Game)
 class GameAdmin(SummernoteModelAdmin):
      list_display = ('name', 'genre', 'data',)
@@ -14,4 +14,5 @@ class GenreAdmin(admin.ModelAdmin):
 class PublisherAdmin(admin.ModelAdmin):
      list_display = ('publisher',)
 
-
+admin.site.register(Like)
+admin.site.register(Favourite)

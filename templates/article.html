@@ -36,7 +36,7 @@ info: {{ article.text|safe }}
 </form>
 
 
-
+<a href="{% url 'edit_article' article.id %}">Edit</a>
 
 <script>
 $(document).ready(function() {
