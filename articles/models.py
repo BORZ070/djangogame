@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
+from taggit.managers import TaggableManager
 
 from games.models import Game
 
@@ -10,7 +11,7 @@ class Article(models.Model):
     text = models.TextField()
     image = models.ImageField(upload_to='title_article')
     publish = models.BooleanField(default=False)
-
+    tags = TaggableManager()
     def __str__(self):
         return self.title
 

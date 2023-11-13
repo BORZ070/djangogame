@@ -71,9 +71,16 @@ def favorite_articles_views(request):
 
 def edit_article(request, pk):
     article = Article.objects.get(id=pk)
-    form = ArticleEditForm(instance=article)
-    print(pk)
-    print(form)
+
+    if request.method == "POST":
+        form = ArticleEditForm(request.POST, instance=article)
+        if form.is_valid:
+            form.save()
+    else:
+        form = ArticleEditForm(instance=article)
+
+
+
 
     return render(request, 'edit_article.html', {'form':form, 'article':article})
 

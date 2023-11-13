@@ -8,7 +8,7 @@
 {% load thumbnail %}
 {% for article in articles_with_like_count %}
 
-    <a href="{% url 'article_detail' article.id %}"><img src="{% thumbnail article.image 100x100 crop %}" class="card-img-top" alt="..."></a>
+    <a href="{{ article.get_absolute_url }}"><img src="{% thumbnail article.image 100x100 crop %}" class="card-img-top" alt="..."></a>
 
 <li><a class="nav-link scrollto" href="{{ article.get_absolute_url }} ">{{ article.title }}</a></li>- {{ article.like_count }}
 {% endfor%}

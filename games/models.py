@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django.urls import reverse
 
 
 class Genre(models.Model):
@@ -27,6 +28,9 @@ class Game(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('games_detail', args=[self.pk])
 
 class Platform(models.Model):
     platform = models.CharField(max_length=50)

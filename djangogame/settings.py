@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_summernote',
     'easy_thumbnails',
+    'taggit',
 
 
 
