@@ -10,7 +10,7 @@ from rest_framework.permissions import IsAuthenticated
 class GameModelViewSet(ModelViewSet):
     serializer_class = GameSerializers
     queryset = Game.objects.all()
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
     http_method_names = ['get']
 
 class ArticleModelViewSet(ModelViewSet):

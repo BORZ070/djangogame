@@ -8,6 +8,7 @@ class GameSerializers(serializers.ModelSerializer):
     class Meta:
         model = Game
         fields = [
+            'id',
             'name',
             'data_create',
             'data',
@@ -23,6 +24,7 @@ class ArticleSerializers(serializers.ModelSerializer):
     class Meta:
         model = Article
         fields = [
+            'id',
             'title',
             'text',
             'image',

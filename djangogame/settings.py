@@ -47,7 +47,9 @@ INSTALLED_APPS = [
     'easy_thumbnails',
     'taggit',
     'rest_framework',
+    'rest_framework.authtoken',
     'drf_yasg',
+
 
 
 
@@ -155,3 +157,10 @@ AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend',
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '130528158295-qtk9029ptsi8qqvmcqmekla3pcopteca.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
