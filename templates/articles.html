@@ -13,5 +13,7 @@
 <li><a class="nav-link scrollto" href="{{ article.get_absolute_url }} ">{{ article.title }}</a></li>- {{ article.like_count }}
 {% endfor%}
 
+{% include 'pagination.html' with page=articles_with_like_count %}
+
 </body>
 </html>

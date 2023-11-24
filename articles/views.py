@@ -4,11 +4,16 @@ from articles.models import Article, Like, Favorite
 from django.http import JsonResponse
 from articles.forms import ArticleEditForm
 
+from django.core.paginator import Paginator
+
 
 def list_views(request):
-    articles_with_like_count = Article.objects.annotate(like_count=Count('like'))
-    articles_with_like_count = articles_with_like_count.filter(publish=True)
-
+    articles = Article.objects.annotate(like_count=Count('like'))
+    articles_with_like_count_list = articles.filter(publish=True)
+    #paginator
+    paginator = Paginator(articles_with_like_count_list, 2)
+    page_number = request.GET.get('page', 1)
+    articles_with_like_count = paginator.page(page_number)
     return render(request, 'articles.html', {'articles_with_like_count':articles_with_like_count})
 
 

@@ -6,6 +6,7 @@ from games.models import Game, Genre, Publisher, Like as LikeGame
 from articles.models import Article, Like
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.pagination import PageNumberPagination
 
 
 #game
@@ -36,11 +37,19 @@ class LikeGameModelViewSet(ModelViewSet):
     # permission_classes = [IsAuthenticated]
 
 
+#paginator_article
+class PaginatorArticle(PageNumberPagination):
+    page_size = 2
+    page_size_query_param = 'page_size'
+    max_page_size = 1000
+
 #article
 class ArticleModelViewSet(ModelViewSet):
     serializer_class = ArticleSerializers
     queryset = Article.objects.all()
     # permission_classes = [IsAuthenticated]
+    pagination_class = PaginatorArticle
+
 
 
 class LikeArticleModelViewSet(ModelViewSet):
@@ -54,5 +63,8 @@ class AccountModelViewSet(ModelViewSet):
     serializer_class = AccountSerializers
     queryset = Profile.objects.all()
     # permission_classes = [IsAuthenticated]
+
+
+
 
 
