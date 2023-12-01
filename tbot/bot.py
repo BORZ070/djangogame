@@ -2,9 +2,11 @@ import telebot
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
+from tbot.models import TbotUserProfile
+
 #t.me/django_games_test_bot
 token = '6783897789:AAF0J26XI-tEseNmlhT0z0_cGYhC1Wxodzc'
-webhook = 'https://5890-5-144-117-45.ngrok-free.app/tbot/webhook/'
+webhook = 'https://7f74-5-144-117-45.ngrok-free.app/tbot/webhook/'
 bot = telebot.TeleBot(token)
 def set_webhook(request):
     webhook_url = webhook
@@ -23,10 +25,19 @@ def telegram_webhook(request):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, 'Hello')
     id = message.chat.id
     first_name = message.chat.first_name
     username = message.chat.username
-    
+    #testcode
+    user_exists = TbotUserProfile.objects.filter(tuser_id=id).exists()
+    print(user_exists)
+    # if not user_exists:
+    try:
+        TbotUserProfile.objects.create(tuser_id=id,
+                                       tuser_name=username,
+                                       tuser_first_name=first_name,
+                                       )
+    except Exception as err:
+        print(err)
 
-
+    bot.send_message(message.chat.id, f'Hello, {username}')
