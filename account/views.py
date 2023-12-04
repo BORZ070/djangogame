@@ -6,8 +6,13 @@ from account.forms import LoginForm, UserRegistrationForm, UserEditForm, Profile
 from account.models import Profile
 from django.contrib import messages
 
+from tbot.forms import SupportQForm
+
+
 def index_views(request):
-    return render(request, 'index_page.html')
+    form = SupportQForm()
+
+    return render(request, 'index_page.html', {'form':form})
 
 @login_required
 def dashboard(request):

@@ -1,7 +1,7 @@
-q = ['xxx','yyy','zzz']
-# count = 0
-# for i in q:
-#     count += 1
-# print(count)
-print(len(q))
+def xxx(a, b):
+    sum = a + b
+    return sum
 
+test = xxx(10, 15)
+
+print(test)

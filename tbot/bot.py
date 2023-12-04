@@ -6,7 +6,7 @@ from tbot.models import TbotUserProfile
 
 #t.me/django_games_test_bot
 token = '6783897789:AAF0J26XI-tEseNmlhT0z0_cGYhC1Wxodzc'
-webhook = 'https://7f74-5-144-117-45.ngrok-free.app/tbot/webhook/'
+webhook = 'https://149c-5-144-123-244.ngrok-free.app/tbot/webhook/'
 bot = telebot.TeleBot(token)
 def set_webhook(request):
     webhook_url = webhook
@@ -41,3 +41,13 @@ def start(message):
         print(err)
 
     bot.send_message(message.chat.id, f'Hello, {username}')
+
+def send_tmessage(chat_id, text):
+    bot.send_message(chat_id, text, parse_mode='Markdown')
+
+
+
+
+
+
+
