@@ -21,3 +21,6 @@ def send_mails(sender, instance, created, **kwargs):
         # from_email = 'xbox070@yandex.ru'
         # email_manager = ['shdgit07@gmail.com']
         # send_mail(email_subject, message, from_email)
+
+
+

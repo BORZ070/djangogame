@@ -10,7 +10,13 @@ from tbot.forms import SupportQForm
 
 
 def index_views(request):
-    form = SupportQForm()
+
+    if request.method == 'POST':
+        form = SupportQForm(request.POST)
+        if form.is_valid():
+            form.save()
+    else:
+        form = SupportQForm()
 
     return render(request, 'index_page.html', {'form':form})
 
