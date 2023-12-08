@@ -1,12 +1,13 @@
 import telebot
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.conf import settings
 
 from tbot.models import TbotUserProfile
 
 #t.me/django_games_test_bot
-token = '6783897789:AAF0J26XI-tEseNmlhT0z0_cGYhC1Wxodzc'
-webhook = 'https://44be-5-144-123-244.ngrok-free.app/tbot/webhook/'
+token = settings.TGTOKEN
+webhook = settings.TGWEBHOOK
 bot = telebot.TeleBot(token)
 def set_webhook(request):
     webhook_url = webhook
@@ -25,6 +26,8 @@ def telegram_webhook(request):
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    text = message.text
+    # django_user_id =
     id = message.chat.id
     first_name = message.chat.first_name
     username = message.chat.username
