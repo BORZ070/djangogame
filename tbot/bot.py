@@ -1,4 +1,5 @@
 import telebot
+from django.contrib.auth.models import User
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
@@ -8,6 +9,8 @@ from tbot.views import tlink_views
 from telebot import types
 
 from articles.models import Article
+from games.models import Game,Genre
+from account.models import Profile
 
 #t.me/django_games_test_bot
 token = settings.TGTOKEN
@@ -73,7 +76,8 @@ def start(message):
     item_2 = types.KeyboardButton('games')
     item_3 = types.KeyboardButton('library')
     item_4 = types.KeyboardButton('profile')
-    markup.row(item_1, item_2)
+    item_5 = types.KeyboardButton('genre')
+    markup.row(item_1, item_2, item_5)
     markup.row(item_3, item_4)
 
     bot.send_message(message.chat.id, f'Hello, {username}', reply_markup=markup)
@@ -91,22 +95,47 @@ def item_1(message):
 
 @bot.message_handler(func=lambda message: message.text == 'games')
 def item_2(message):
-    answer = 'you press button games'
-    bot.send_message(message.chat.id, answer)
+    games = Game.objects.all()
+    for game in games:
+        answer = f'{game.name}\nhttp://127.0.0.1:8000/{game.get_absolute_url()}'
+        bot.send_message(message.chat.id, answer)
+
 
 
 @bot.message_handler(func=lambda message: message.text == 'library')
 def item_3(message):
-    answer = 'you press button library'
-    bot.send_message(message.chat.id, answer)
+    # answer = 'you press button library'
+    games = Game.objects.all()
+    for game in games:
+        answer = f'{game.name}\nhttp://127.0.0.1:8000/{game.get_absolute_url()}'
+        bot.send_message(message.chat.id, answer)
 
 
 @bot.message_handler(func=lambda message: message.text == 'profile')
 def item_4(message):
-    answer = 'you press button profile'
+    username = message.chat.username
+
+    chat_id= message.chat.id
+    tguser = TbotUserProfile.objects.get(tuser_id=chat_id)
+    site_id = tguser.tuser_link_to_user_id
+    site_user = User.objects.get(id=site_id)
+
+    site_username = site_user.username
+    email = site_user.email
+
+    answer = f'TG_name: "{username}"\nSite_name: "{site_username}"\nEmail: "{email}"'
+
     bot.send_message(message.chat.id, answer)
 
-
+@bot.message_handler(func=lambda message: message.text == 'genre')
+def item_5(message):
+    genres = Genre.objects.all()
+    markup = types.InlineKeyboardMarkup()
+    for genre in genres:
+        button = types.InlineKeyboardButton(genre.genre, callback_data='xxx')
+        markup.add(button)
+    answer = 'Выберите жанр'
+    bot.send_message(message.chat.id, answer, reply_markup=markup)
 def send_tmessage(chat_id, text):
     bot.send_message(chat_id, text)
 
