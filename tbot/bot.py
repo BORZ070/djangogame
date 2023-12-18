@@ -16,6 +16,7 @@ from account.models import Profile
 token = settings.TGTOKEN
 webhook = settings.TGWEBHOOK
 bot = telebot.TeleBot(token)
+host_url = settings.HOST_URL
 def set_webhook(request):
     webhook_url = webhook
     bot.remove_webhook()
@@ -77,8 +78,11 @@ def start(message):
     item_3 = types.KeyboardButton('library')
     item_4 = types.KeyboardButton('profile')
     item_5 = types.KeyboardButton('genre')
+    item_6 = types.KeyboardButton('your genre')
     markup.row(item_1, item_2, item_5)
+    markup.row(item_6)
     markup.row(item_3, item_4)
+
 
     bot.send_message(message.chat.id, f'Hello, {username}', reply_markup=markup)
     print(django_user_id)
@@ -88,7 +92,7 @@ def start(message):
 def item_1(message):
     articles = Article.objects.all()
     for article in articles:
-        answer = f'{article.title}\nhttp://127.0.0.1:8000/{article.get_absolute_url()}'
+        answer = f'{article.title}\n{host_url}{article.get_absolute_url()}'
         bot.send_message(message.chat.id, answer)
 
 
@@ -97,7 +101,7 @@ def item_1(message):
 def item_2(message):
     games = Game.objects.all()
     for game in games:
-        answer = f'{game.name}\nhttp://127.0.0.1:8000/{game.get_absolute_url()}'
+        answer = f'{game.name}\n{host_url}{game.get_absolute_url()}'
         bot.send_message(message.chat.id, answer)
 
 
@@ -107,7 +111,7 @@ def item_3(message):
     # answer = 'you press button library'
     games = Game.objects.all()
     for game in games:
-        answer = f'{game.name}\nhttp://127.0.0.1:8000/{game.get_absolute_url()}'
+        answer = f'{game.name}\n{host_url}{game.get_absolute_url()}'
         bot.send_message(message.chat.id, answer)
 
 
@@ -132,10 +136,37 @@ def item_5(message):
     genres = Genre.objects.all()
     markup = types.InlineKeyboardMarkup()
     for genre in genres:
-        button = types.InlineKeyboardButton(genre.genre, callback_data='xxx')
+        button = types.InlineKeyboardButton(genre.genre, callback_data=f'selected_genre:{genre.genre}')
         markup.add(button)
     answer = 'Выберите жанр'
     bot.send_message(message.chat.id, answer, reply_markup=markup)
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith('selected_genre'))
+def genre_button(call):
+    chat_id = call.message.chat.id
+    genre = call.data.split(':')[1]
+    games = Game.objects.filter(genre__genre=genre)
+    for game in games:
+        bot.send_message(chat_id, f'{game.name}: {host_url}{game.get_absolute_url()}')
+
+@bot.message_handler(func=lambda message: message.text == 'your genre')
+def item_6(message):
+    genres = Genre.objects.all()
+    markup = types.InlineKeyboardMarkup()
+    for genre in genres:
+        button = types.InlineKeyboardButton(genre.genre, callback_data=f'preference_genre:{genre.genre}')
+        markup.add(button)
+    answer = 'Select your preference genre'
+    bot.send_message(message.chat.id, answer, reply_markup=markup)
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith('preference_genre'))
+def genre_button(call):
+    chat_id = call.message.chat.id
+    genre = call.data.split(':')[1]
+    # games = Game.objects.filter(genre__genre=genre)
+    # for game in games:
+    #     bot.send_message(chat_id, f'{game.name}: {host_url}{game.get_absolute_url()}')
+
 def send_tmessage(chat_id, text):
     bot.send_message(chat_id, text)
 
