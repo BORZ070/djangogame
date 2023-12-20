@@ -162,10 +162,17 @@ def item_6(message):
 @bot.callback_query_handler(func=lambda call: call.data.startswith('preference_genre'))
 def genre_button(call):
     chat_id = call.message.chat.id
+    first_name = call.message.chat.first_name
+    username = call.message.chat.username
+    # try:
     genre = call.data.split(':')[1]
-    # games = Game.objects.filter(genre__genre=genre)
-    # for game in games:
-    #     bot.send_message(chat_id, f'{game.name}: {host_url}{game.get_absolute_url()}')
+    # except Exception as err:
+    #     print(err)
+    genre_obj = Genre.objects.get(genre=genre)
+    tguser = TbotUserProfile.objects.get(tuser_id=chat_id)
+    tguser.tuser_preference_genre = genre_obj
+    tguser.save()
+    bot.send_message(chat_id, f'xxx')
 
 def send_tmessage(chat_id, text):
     bot.send_message(chat_id, text)
