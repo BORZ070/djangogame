@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'drf_yasg',
     'tbot',
+    'mail_sender',
 
 
 
@@ -164,3 +165,5 @@ REST_FRAMEWORK = {
 
 CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
 CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
