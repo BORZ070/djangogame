@@ -16,5 +16,5 @@ def send_mails_all_user(sender, instance, created, **kwargs):
     #         from_email = 'xbox070@yandex.ru'
     #         email_manager = ['shdgit07@gmail.com']
     #         send_mail(email_subject, message, from_email, recipient_list=email_manager)
-    instance = MailForAllUser.objects.get(id=instance.id)
-    send_mails_all_user_celery.delay(instance)
+    # instance = MailForAllUser.objects.get(id=instance.id)
+    send_mails_all_user_celery.delay()
