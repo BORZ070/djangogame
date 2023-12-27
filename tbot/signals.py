@@ -2,8 +2,8 @@ from django.dispatch import receiver
 from django.db.models.signals import post_save
 
 from tbot.bot import send_tmessage
-from tbot.models import SupportQ
-
+from tbot.models import SupportQ, TSpam
+from tbot.tasks import send_spam
 
 @receiver(post_save, sender=SupportQ)
 def send_mails(sender, instance, created, **kwargs):
@@ -15,12 +15,15 @@ def send_mails(sender, instance, created, **kwargs):
         text = f'**Новое сообщение в службу поддержки**\n{email}\n{question}'
         send_tmessage(chat_id, text)
 
+@receiver(post_save, sender=TSpam)
+def tspam(instance, created, **kwargs):
+        if True:
+            title = instance.title
+            text = instance.text
+            image = instance.image.path
+            send_spam()
 
-        # email_subject = 'заявка'
-        # message = f'новая заявка от {email}, {data}, {question}'
-        # from_email = 'xbox070@yandex.ru'
-        # email_manager = ['shdgit07@gmail.com']
-        # send_mail(email_subject, message, from_email)
+
 
 
 

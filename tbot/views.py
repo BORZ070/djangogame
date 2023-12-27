@@ -9,3 +9,6 @@ def tlink_views(request):
 
     return render(request, 'telegram.html', {'base_link':base_link,
                                              'with_id_link':with_id_link})
+
+
+

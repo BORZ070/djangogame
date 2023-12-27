@@ -19,7 +19,7 @@ __pycache__/
 #/media/
 
 # Database files
-#*.sqlite3
+*.sqlite3
 
 # PyCharm specific files
 .idea/
