@@ -2,13 +2,16 @@ from celery import shared_task
 from tbot.models import TbotUserProfile
 from tbot.bot import bot
 
-def send_spam():
+@shared_task()
+def send_spam(title, text, link_image):
     all_tgusers = TbotUserProfile.objects.all()
-    list_chat_id = []
+    message = f'{title}\n{text}'
+    with open(link_image, 'rb') as file:
+        photo = file.read()
     for tguser in all_tgusers:
         chat_id = tguser.tuser_id
-        list_chat_id.append(chat_id)
-    print(list_chat_id)
-    for chat_id in list_chat_id:
-        # bot.send_photo(chat_id=chat_id, caption=)
-        
+        bot.send_photo(chat_id=chat_id, caption=message, photo=photo, parse_mode='Markdown')
+
+
+
+

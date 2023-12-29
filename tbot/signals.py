@@ -20,8 +20,8 @@ def tspam(instance, created, **kwargs):
         if True:
             title = instance.title
             text = instance.text
-            image = instance.image.path
-            send_spam()
+            link_image = instance.image.path
+            send_spam.delay(title, text, link_image)
 
 
 
