@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+{% block content %}
+
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -11,8 +12,7 @@
     <a href="{{ game.get_absolute_url }}"><img src="{% thumbnail game.image 100x100 crop %}" class="card-img-top" alt="..."></a>
 
 <li><a class="nav-link scrollto" href="{{ game.get_absolute_url }}">{{ game.name }}</a></li>- {{ game.like_count }}
-
 {% endfor%}
-
 </body>
-</html>
+
+{% endblock %}

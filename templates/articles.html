@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
+
 {% load thumbnail %}
 {% for article in articles_with_like_count %}
 
@@ -15,5 +11,4 @@
 
 {% include 'pagination.html' with page=articles_with_like_count %}
 
-</body>
-</html>
+{% endblock %}
