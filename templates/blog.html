@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load thumbnail %}
+    <a><img src="{% thumbnail blog.image 100x100 crop %}" class="card-img-top"></a>
+<br>
+{{ blog.title }}
+<br><br>
+{{ blog.text|safe }}
+<br>
+<a href="{% url 'edit_blog' blog.id %}">Edit</a>
+
+
+{% endblock %}

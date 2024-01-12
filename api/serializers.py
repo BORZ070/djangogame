@@ -3,7 +3,7 @@ from rest_framework import serializers
 from account.models import Profile
 from games.models import Game, Genre,Publisher, Like as LikeGame
 from articles.models import Article, Like
-
+from blog.models import Blog
 
 #Game
 class GenreSerializers(serializers.ModelSerializer):
@@ -87,5 +87,13 @@ class AccountSerializers(serializers.ModelSerializer):
                 'date_of_birth',
                 'avatar',
             ]
+
+
+#blog
+class BLogSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = Blog
+        fields = '__all__'
+
 
 

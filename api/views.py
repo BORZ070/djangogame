@@ -1,7 +1,9 @@
 from django.shortcuts import render
 
 from account.models import Profile
-from api.serializers import GameSerializers, ArticleSerializers, AccountSerializers, GenreSerializers, PublisherSerializers, LikeArticleSerializers, LikeGameSerializers
+from api.serializers import GameSerializers, ArticleSerializers, AccountSerializers, GenreSerializers, \
+    PublisherSerializers, LikeArticleSerializers, LikeGameSerializers, BLogSerializers
+from blog.models import Blog
 from games.models import Game, Genre, Publisher, Like as LikeGame
 from articles.models import Article, Like
 from rest_framework.viewsets import ModelViewSet
@@ -64,6 +66,13 @@ class AccountModelViewSet(ModelViewSet):
     queryset = Profile.objects.all()
     # permission_classes = [IsAuthenticated]
 
+
+#blog
+class BlogModelViewSet(ModelViewSet):
+    serializer_class = BLogSerializers
+    queryset = Blog.objects.all()
+    # permission_classes = [IsAuthenticated]
+    http_method_names = ['get']
 
 
 

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load thumbnail %}
+{% for blog in blogs %}
+
+    <a href="{{ blog.get_absolute_url }}"><img src="{% thumbnail blog.image 200x200 crop %}" class="card-img-top" alt="..."></a>
+    <li><a class="nav-link scrollto" href="{{ blog.get_absolute_url }} ">{{ blog.title }}</a>
+
+{% endfor%}
+
+{% endblock %}
+
+

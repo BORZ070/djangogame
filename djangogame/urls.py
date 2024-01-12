@@ -38,7 +38,8 @@ urlpatterns = [
     path('api-token-auth/', api_auth_views.obtain_auth_token),
     #TG
     path('tbot/', include('tbot.urls')),
-
+    #blog
+    path('blog', include('blog.urls')),
 
 ]
 
