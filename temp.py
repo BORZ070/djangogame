@@ -1,7 +1,2 @@
-def xxx(a, b):
-    sum = a + b
-    return sum
-
-test = xxx(10, 15)
-
-print(test)
+x = [1, 2, 3, 4, 5]
+print(x[-2:])

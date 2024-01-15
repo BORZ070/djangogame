@@ -5,12 +5,13 @@ from django.shortcuts import render
 from account.forms import LoginForm, UserRegistrationForm, UserEditForm, ProfileEditForm
 from account.models import Profile
 from django.contrib import messages
+from games.models import Game
 
 from tbot.forms import SupportQForm
 
 
 def index_views(request):
-
+    cards = Game.objects.all().order_by('?')[:6]
     if request.method == 'POST':
         form = SupportQForm(request.POST)
         if form.is_valid():
@@ -18,7 +19,7 @@ def index_views(request):
     else:
         form = SupportQForm()
 
-    return render(request, 'index_page.html', {'form':form})
+    return render(request, 'index.html', {'form':form, 'cards':cards})
 
 @login_required
 def dashboard(request):

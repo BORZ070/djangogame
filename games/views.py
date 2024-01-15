@@ -7,7 +7,7 @@ from games.models import Like, Game, Favourite
 def list_views(request):
     games_with_like_count = Game.objects.annotate(like_count=Count('like'))
 
-    return render(request, 'games_list.html', {'games_with_like_count':games_with_like_count})
+    return render(request, 'games_list_new.html', {'games_with_like_count':games_with_like_count})
 
 
 def detail_views(request, pk):
