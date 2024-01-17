@@ -14,7 +14,7 @@ def list_views(request):
     paginator = Paginator(articles_with_like_count_list, 2)
     page_number = request.GET.get('page', 1)
     articles_with_like_count = paginator.page(page_number)
-    return render(request, 'articles.html', {'articles_with_like_count':articles_with_like_count})
+    return render(request, 'articles_new.html', {'articles_with_like_count':articles_with_like_count})
 
 
 def detail_views(request, pk):

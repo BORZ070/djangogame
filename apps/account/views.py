@@ -6,12 +6,14 @@ from account.forms import LoginForm, UserRegistrationForm, UserEditForm, Profile
 from account.models import Profile
 from django.contrib import messages
 from games.models import Game
+from articles.models import Article
 
 from tbot.forms import SupportQForm
 
 
 def index_views(request):
-    cards = Game.objects.all().order_by('?')[:6]
+    cards_game = Game.objects.all().order_by('?')[:6]
+    cards_article = Article.objects.all().order_by('?')[:6]
     if request.method == 'POST':
         form = SupportQForm(request.POST)
         if form.is_valid():
@@ -19,7 +21,7 @@ def index_views(request):
     else:
         form = SupportQForm()
 
-    return render(request, 'index.html', {'form':form, 'cards':cards})
+    return render(request, 'index.html', {'form':form, 'cards_game':cards_game, 'cards_article':cards_article})
 
 @login_required
 def dashboard(request):

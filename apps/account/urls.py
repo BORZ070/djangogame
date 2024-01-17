@@ -22,16 +22,6 @@ urlpatterns = [
     path('register/',register, name='register'),
     #edit
     path('edit/',edit, name='edit'),
-
-
-
-
-
-
-
-
-
-
     # profile
     path('', dashboard, name='dashboard')
 ]
