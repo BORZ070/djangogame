@@ -28,7 +28,7 @@ urlpatterns = [
     path('', index_views, name='index_page'),
     path('social-auth/', include('social_django.urls', namespace='social')),
     path('summernote/', include('django_summernote.urls')),
-    path('article/', include('articles.urls')),
+    path('articles/', include('articles.urls')),
     path('games/', include('games.urls')),
     path('api/', include('api.urls')),
     #swagger
@@ -39,7 +39,7 @@ urlpatterns = [
     #TG
     path('tbot/', include('tbot.urls')),
     #blog
-    path('blog', include('blog.urls')),
+    path('blogs', include('blog.urls')),
 
 ]
 

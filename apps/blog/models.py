@@ -1,6 +1,7 @@
 from django.db import models
 from django.urls import reverse
 
+
 class Blog(models.Model):
     title = models.CharField(max_length=50)
     text = models.TextField()
@@ -11,8 +12,8 @@ class Blog(models.Model):
         return self.title
 
 
-    def get_absolute_url(self):
-        return reverse('detail_blog', args=[self.pk])
+    # def get_absolute_url(self):
+    #     return reverse('detail_blog', args=[self.pk])
 
 
 
