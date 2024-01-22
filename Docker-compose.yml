@@ -10,6 +10,7 @@ services:
       - 8000:8000
     depends_on:
       - redis
+      - db
 
   redis:
     image: redis
@@ -24,6 +25,12 @@ services:
       - postgres_data:/var/lib/postgresql/data/
     environment:
       - "POSTGRES_HOST_AUTH_METHOD=trust"
+
+  flower:
+    image: mher/flower:0.9.5
+    command: [ 'flower', '--broker=redis://redis:6379', '--port=5555' ]
+    ports:
+      - 5555:5555
 
 volumes:
   redis_data:

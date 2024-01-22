@@ -1,0 +1,1 @@
+url = "https://newsapi.org/v2/everything?q=games&from=2023-12-22&sortBy=publishedAt&apiKey="
