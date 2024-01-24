@@ -5,6 +5,7 @@ from games.models import Game, Genre,Publisher, Like as LikeGame
 from articles.models import Article, Like
 from blog.models import Blog
 
+
 #Game
 class GenreSerializers(serializers.ModelSerializer):
 

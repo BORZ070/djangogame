@@ -32,6 +32,14 @@ services:
     ports:
       - 5555:5555
 
+  worker:
+    build: .
+    command: celery -A djangogame worker -l info
+    volumes:
+      - .:/code
+    depends_on:
+      - web
+
 volumes:
   redis_data:
   postgres_data:
