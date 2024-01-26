@@ -28,3 +28,7 @@ class TSpam(models.Model):
     title = models.CharField(max_length=50)
     text = models.TextField()
     image = models.ImageField(upload_to='spam_image')
+
+
+class WebhookLink(models.Model):
+    link = models.CharField(max_length=500)

@@ -2,8 +2,10 @@ from django.dispatch import receiver
 from django.db.models.signals import post_save
 
 from tbot.bot import send_tmessage
-from tbot.models import SupportQ, TSpam
+from tbot.models import SupportQ, TSpam, WebhookLink
 from tbot.tasks import send_spam
+from tbot.bot import auto_set_webhook
+
 
 @receiver(post_save, sender=SupportQ)
 def send_mails(sender, instance, created, **kwargs):
@@ -24,6 +26,11 @@ def tspam(instance, created, **kwargs):
             send_spam.delay(title, text, link_image)
 
 
+@receiver(post_save, sender=WebhookLink)
+def webhook_send(instance, created, **kwargs):
+    link = instance.link
+    link_full = f'{link.strip}/tbot/webhook/'
+    auto_set_webhook(link_full)
 
 
 

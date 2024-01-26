@@ -1,2 +1,6 @@
-x = [1, 2, 3, 4, 5]
-print(x[-2:])
+import pickle
+
+
+with open('news_dump', 'rb') as file:
+    news_data = pickle.load(file)
+print(news_data)

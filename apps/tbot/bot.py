@@ -24,6 +24,11 @@ def set_webhook(request):
     return HttpResponse(f'<h1> webhook_set OK on {webhook} </h1>')
 
 
+def auto_set_webhook(webhook_url: str):
+    bot.remove_webhook()
+    bot.set_webhook(webhook_url)
+
+
 @csrf_exempt
 def telegram_webhook(request):
     if request.method == 'POST':
