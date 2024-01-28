@@ -39,7 +39,7 @@ urlpatterns = [
     #TG
     path('tbot/', include('tbot.urls')),
     #blog
-    path('blogs', include('blog.urls')),
+    path('blogs/', include('blog.urls')),
 
 ]
 

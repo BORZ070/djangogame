@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-</head>
+{% extends 'base_site.html' %}
+{% block content %}
 <body>
 Edit article
 <form action="" method="post">
@@ -10,12 +7,6 @@ Edit article
     {{ form.as_p }}
 
 <button type="submit"> Save </button>
-
-
-
 </form>
+{% endblock %}
 
-
-
-</body>
-</html>

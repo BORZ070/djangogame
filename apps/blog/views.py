@@ -6,7 +6,7 @@ from blog.models import Blog
 
 def list_views(requests):
 
-    blogs = Blog.objects.filter()
+    blogs = Blog.objects.all()
 
     return render(requests, 'blogs.html', {'blogs': blogs})
 

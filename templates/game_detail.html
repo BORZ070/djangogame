@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base_site.html' %}
 {% block content %}
 
 <head>
@@ -14,7 +14,7 @@
 <br>
 {{ game.name }}
 <br>
-info: {{ game.info }}
+info: {{ game.info|safe }}
 
 {# Кнопка лайка #}
 <form action="{% url 'games_like' %}" method="POST">

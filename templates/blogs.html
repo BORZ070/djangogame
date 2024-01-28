@@ -2,12 +2,20 @@
 {% block content %}
 
 {% load thumbnail %}
-{% for blogs in blog %}
-
-    <a href="{{ blog.get_absolute_url }}"><img src="{% thumbnail blog.image 200x200 crop %}" class="card-img-top" alt="..."></a>
-    <li><a class="nav-link scrollto" href="{{ blog.get_absolute_url }} ">{{ blog.title }}</a>
-
-{% endfor%}
+{% for card in blogs %}
+      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+        <article class="card">
+          <a href="{{ card.get_absolute_url }}"><img src="{% thumbnail card.image 300x300 crop %}" alt="post-thumb" class="card-img-top mb-2"></a>
+          <div class="card-body p-0">
+            <time>{{ card.data }}</time>
+            <a href="{{ card.get_absolute_url }}" class="h4 card-title d-block my-3 text-dark hover-text-underline">{{ card.title }}</a>
+              <time>{{ card.text|safe|truncatewords:10 }}</time>
+              <br>
+            <a href="#" class="btn btn-transparent">Read more</a>
+          </div>
+        </article>
+      </div>
+        {% endfor %}
 
 {% endblock %}
 

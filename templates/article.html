@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base_site.html' %}
 {% block content %}
 <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -8,7 +8,7 @@
 </head>
 {% load thumbnail %}
 <body>
-    <a><img src="{% thumbnail article.image 100x100 crop %}" class="card-img-top"></a>
+    <a><img src="{% thumbnail article.image 100x100 crop %}" class="card-img-top" alt="..."></a>
 <br>
 {{ article.title }}
 <br>
