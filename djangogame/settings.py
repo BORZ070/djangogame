@@ -47,10 +47,7 @@ INSTALLED_APPS = [
     'tbot',
     'mail_sender',
     'blog',
-
-
-
-
+    'news',
 
 ]
 

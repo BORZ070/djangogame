@@ -1,14 +1,22 @@
 {% extends 'base_site.html' %}
 {% block content %}
-
 {% load thumbnail %}
-    <a><img src="{% thumbnail blog.image 100x100 crop %}" class="card-img-top"></a>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+    <a><img src="{% thumbnail blog.image 900x900 crop %}" class="card-img-top"></a>
 <br>
 {{ blog.title }}
 <br><br>
 {{ blog.text|safe }}
 <br>
 <a href="{% url 'edit_blog' blog.id %}">Edit</a>
+          </div>
+      </div>
+    </div>
 
+</section>
 
 {% endblock %}

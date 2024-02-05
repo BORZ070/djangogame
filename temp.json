@@ -1,0 +1,1306 @@
+{
+  'status': 'ok',
+  'totalResults': 1949,
+  'articles': [
+    {
+      'source': {
+        'id': 'techcrunch',
+        'name': 'TechCrunch'
+      },
+      'author': 'Sarah Perez',
+      'title': 'Apple’s App Store now permits streaming game stores, adds in-app purchase for mini-apps, games, and AI chatbots',
+      'description': 'Alongside the numerous changes Apple is making to its platforms to comply with the EU’s Digital Markets Act (DMA), the company is also updating its rules around streaming game services and other apps that provide access to mini-apps or games. The changes coul…',
+      'url': 'https://techcrunch.com/2024/01/25/apples-app-store-now-permits-streaming-game-stores-adds-in-app-purchase-for-mini-apps-games-or-ai-chatbots/',
+      'urlToImage': 'https://techcrunch.com/wp-content/uploads/2021/03/apple-app-store-ios-2021.jpg?w=1180',
+      'publishedAt': '2024-01-25T18:12:47Z',
+      'content': 'Alongside the numerous changes Apple is making to its platforms to comply with the EU’s Digital Markets Act (DMA), the company is also updating its rules around streaming game services and other apps… [+3642 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Slashdot.org'
+      },
+      'author': 'feedfeeder',
+      'title': 'Apple lets apps feature streaming games, chatbots and other built-in experiences',
+      'description': "Apple's app platform is finally opening up a bit. Today, the company said that it will allow developers to utilize new in-app experiences, including streaming games, accessing mini-apps, and talking with chatbots. That means devs can create a single app that …",
+      'url': 'https://slashdot.org/firehose.pl?op=view&amp;id=172851520',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T18:12:11Z',
+      'content': "Apple's app platform is finally opening up a bit. Today, the company said that it will allow developers to utilize new in-app experiences, including streaming games, accessing mini-apps, and talking … [+1731 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Bleeding Cool News'
+      },
+      'author': 'Gavin Sheehan',
+      'title': 'Demeter, The Asklepios Chronicles Has Been Released On Meta Quest',
+      'description': "VR developer and publisher Novelab has officially released Demeter, The Asklepios Chronicles, onto the Meta Quest store today. The game has been in the works for a minute as you'll be given more of an Augmented Reality experience with the character and her wo…",
+      'url': 'https://bleedingcool.com/games/demeter-the-asklepios-chronicles-has-been-released-on-meta-quest/',
+      'urlToImage': 'https://bleedingcool.com/wp-content/uploads/2024/01/Demeter-The-Asklepios-Chronicles-Art-2000x1125.jpg',
+      'publishedAt': '2024-01-25T18:12:07Z',
+      'content': 'Posted in: Games, Video Games, VR | Tagged: Demeter, Novelab\r\nNovelab has a brand-new game out on Meta Quest today as players can get their hands on Demeter, The Asklepios Chronicles.\r\nArticle Summar… [+2630 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Acm.org'
+      },
+      'author': 'Giorgio Buttazzo',
+      'title': 'Technical Perspective: Bridging AI with Real-Time Systems',
+      'description': '&quot;Taming Algorithmic Priority Inversion in Mission-Critical Perception Pipelines,&quot; by Shengzhong Liu et al., proposes a new methodology for overcoming the limitations of current AI frameworks to enable the use of deep neural networks in mission-criti…',
+      'url': 'https://cacm.acm.org/magazines/2024/2/279541-technical-perspective-bridging-ai-with-real-time-systems/abstract',
+      'urlToImage': 'https://cacm.acm.org/system/assets/0004/6964/011924_Getty_TP-Bridging-AI.large.jpg?1705690046&1705690046',
+      'publishedAt': '2024-01-25T18:11:30Z',
+      'content': 'By Giorgio Buttazzo\r\nCommunications of the ACM,\r\nFebruary 2024,\r\nVol. 67 No. 2, Page 10910.1145/3631339CommentsCredit: Getty Images\r\nArtificial intelligence (AI) and machine learning models are makin… [+891 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': '9to5Mac'
+      },
+      'author': 'Benjamin Mayo',
+      'title': 'Apple now allows game streaming apps in the App Store',
+      'description': 'Apple is updating its App Store policies to relent on a longstanding ban on game streaming apps. Developers are now allowed to submit a single app that can contain a catalog of games, where the game code is running off a server. This allows services like Xbox…',
+      'url': 'https://9to5mac.com/2024/01/25/apple-game-streaming-app-store/',
+      'urlToImage': 'https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/06/microsoft_xbox_game_Streaming_browser_1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1',
+      'publishedAt': '2024-01-25T18:11:29Z',
+      'content': 'Apple is updating its App Store policies to relent on a longstanding ban on game streaming apps. Developers are now allowed to submit a single app that can contain a catalog of games, where the game … [+1155 chars]'
+    },
+    {
+      'source': {
+        'id': 'usa-today',
+        'name': 'USA Today'
+      },
+      'author': 'Eric Lagatta and Paul Davidson, USA TODAY',
+      'title': 'Microsoft layoffs: 1,900 workers at Activision Blizzard and Xbox to be let go',
+      'description': 'The layoffs represent about an 8% cut to its video game staff of 22,000 and come months after Microsoft acquired Activision in a blockbuster deal.',
+      'url': 'https://www.usatoday.com/story/money/2024/01/25/microsoft-layoffs-activision-blizzard-xbox/72353421007/',
+      'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/EgGm674Y.YYNECYKhmJi7Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NDE-/https://media.zenfs.com/en/usa_today_money_325/6a410f4635325a75425ab7a8f8d12de5',
+      'publishedAt': '2024-01-25T18:11:17Z',
+      'content': 'Microsoft will lay off 1,900 employees at Activision Blizzard and Xbox, the latest tech company to announce cuts so far in 2024.\r\nThe layoffs represent about an 8% cut of its video gaming staff of 22… [+3648 chars]'
+    },
+    {
+      'source': {
+        'id': 'bbc-news',
+        'name': 'BBC News'
+      },
+      'author': None,
+      'title': "Tigers Women's coach Stratford gets seven-week ban",
+      'description': "Leicester coach Luke Stratford is suspended for seven weeks for verbally abusing a match official during a Women's Premiership Rugby match.",
+      'url': 'https://www.bbc.co.uk/sport/rugby-union/68100257',
+      'urlToImage': 'https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/16709/production/_132431919_gettyimages-1249396635.jpg',
+      'publishedAt': '2024-01-25T18:08:32Z',
+      'content': "Leicester Tigers are bottom of the Women's Premiership Rugby table with just one win from eight games in their first top-flight season so far\r\nLeicester Tigers forwards coach Luke Stratford has been … [+732 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Everyeye.it'
+      },
+      'author': 'Michele Galluzzi',
+      'title': "GOG.com lancia i Saldi del Nuovo Anno: c'è Mordheim gratis su PC, sbrigatevi a riscattarlo",
+      'description': "Il profondo e complesso strategico Mordheim: City of the Damned è gratis su GOG per celebrare l'inizio dei Saldi del Nuovo AnnoDopo aver regalato una toccante avventura narrativa su GOG.com a Natale, i curatori del negozio digitale di proprietà di CD Projekt …",
+      'url': 'https://www.everyeye.it/notizie/gog-com-lancia-saldi-anno-e-mordheim-gratis-pc-sbrigatevi-riscattarlo-695965.html',
+      'urlToImage': 'https://images.everyeye.it/img-notizie/gog-com-lancia-saldi-anno-c-E-mordheim-gratis-pc-sbrigatevi-riscattarlo-v3-695965.jpg',
+      'publishedAt': '2024-01-25T18:08:00Z',
+      'content': 'Dopo aver regalato una toccante avventura narrativa su GOG.com a Natale, i curatori del negozio digitale di proprietà di CD Projekt accompagnano la partenza dei Saldi del Nuovo Anno con un profondo e… [+1056 chars]'
+    },
+    {
+      'source': {
+        'id': 'espn',
+        'name': 'ESPN'
+      },
+      'author': 'David Purdum',
+      'title': 'Fantasy site fires employee over cheating scandal',
+      'description': 'An employee for a fantasy football site has been fired for being involved in a cheating scandal during a prestigious tournament with a six-figure first prize.',
+      'url': 'https://www.espn.com/espn/betting/story/_/id/39386593/fantasy-football-cheating-scandal-leads-site-firing-employee',
+      'urlToImage': 'https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0122%2Fr1280474_1296x729_16%2D9.jpg',
+      'publishedAt': '2024-01-25T18:07:22Z',
+      'content': 'An employee for a fantasy football website has been fired for being involved in a cheating scandal during a prestigious NFL playoffs tournament with a six-figure first prize.\r\nThe National Fantasy Fo… [+3329 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'PC Gamer'
+      },
+      'author': 'clivingston@pcgamer.com (Christopher Livingston)',
+      'title': "This co-op survival game looks like a mad scientist's mashup of Lethal Company and Half-Life—and there's a demo out now",
+      'description': 'Craft sci-fi weapons and gizmos while battling alien invaders deep in an underground blacksite.',
+      'url': 'https://www.pcgamer.com/this-co-op-survival-game-looks-like-a-mad-scientists-mashup-of-lethal-company-and-half-lifeand-theres-a-demo-out-now/',
+      'urlToImage': 'https://cdn.mos.cms.futurecdn.net/hevpViFgnrewn4gxBZnjJn-1200-80.jpg',
+      'publishedAt': '2024-01-25T18:07:00Z',
+      'content': 'Yeah, I know, there have already been a couple big co-op survival games released in just the past week, the record-smashing monster-managing Palworld and sprawling fantasy RPG Enshrouded.\xa0\r\nBut there… [+1856 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CBS Sports'
+      },
+      'author': 'CBS Sports Staff',
+      'title': 'Jim Harbaugh leaves for NFL, Michigan head coach news: Coaching carousel, candidates from Michigan insiders',
+      'description': "The Michigan Insider 247 team has covered the Michigan Wolverines for decades and now they've revealed their thoughts on the next Michigan football coach following Jim Harbaugh's departure for the NFL",
+      'url': 'https://www.cbssports.com/college-football/news/jim-harbaugh-leaves-for-nfl-michigan-head-coach-news-coaching-carousel-candidates-from-michigan-insiders/',
+      'urlToImage': 'https://sportshub.cbsistatic.com/i/r/2024/01/25/9da2d6ab-327b-4738-be23-b7ae3b3ac52d/thumbnail/1200x675/b82d702c049ecd554aa1d605bf6144a5/harbaugh-cbs.jpg',
+      'publishedAt': '2024-01-25T18:06:55Z',
+      'content': 'Jim Harbaugh is heading back to the NFL as the new head coach of the Chargers after leading Michigan to a national championship this season. He signed a five-year deal on Wednesday after being consid… [+3719 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'MLB Trade Rumors'
+      },
+      'author': 'Anthony Franco',
+      'title': 'Blue Jays, Orioles Have Shown Interest In Domingo German',
+      'description': 'The Orioles and Blue Jays are among six teams that have shown interest in free agent starter\xa0Domingo Germán, reports Mark W. Sanchez of the New York Post. Sanchez adds that the Mets have also checked in but casts doubt on the chance of the right-hander headin…',
+      'url': 'https://www.mlbtraderumors.com/2024/01/blue-jays-orioles-have-shown-interest-in-domingo-german.html',
+      'urlToImage': 'https://cdn.mlbtraderumors.com/files/2024/01/USATSI_21120366-1024x683.jpg',
+      'publishedAt': '2024-01-25T18:06:18Z',
+      'content': 'The Orioles and Blue Jays are among six teams that have shown interest in free agent starter\xa0Domingo Germán, reports Mark W. Sanchez of the New York Post. Sanchez adds that the Mets have also checked… [+4484 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Investing.com'
+      },
+      'author': 'Reuters',
+      'title': 'Apple to allow downloads outside App Store in EU, with new fees',
+      'description': 'Apple to allow downloads outside App Store in EU, with new fees',
+      'url': 'https://www.investing.com/news/stock-market-news/apple-to-allow-downloads-outside-app-store-in-eu-with-new-fees-3283357',
+      'urlToImage': 'https://i-invdn-com.investing.com/news/moved_LYNXMPEJ5501Y_L.jpg',
+      'publishedAt': '2024-01-25T18:06:07Z',
+      'content': "By Stephen Nellis\r\n(Reuters) - Apple (NASDAQ:AAPL) on Thursday outlined its plans to allow software developers to distribute their apps to users in the European Union outside of Apple's own App Store… [+2437 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'New York Post'
+      },
+      'author': 'Jaclyn Hendricks',
+      'title': 'Travis Kelce’s ex, Kayla Nicole, ‘got in so much trouble’ for Jalen Hurts post',
+      'description': 'Kayla Nicole is opening up about her Jalen Hurts post that sent social media ablaze last fall.',
+      'url': 'https://nypost.com/2024/01/25/sports/travis-kelces-ex-kayla-nicole-got-in-trouble-for-jalen-hurts-post/',
+      'urlToImage': 'https://nypost.com/wp-content/uploads/sites/2/2024/01/newspress-collage-rqtwlyue9-1706201160345.jpg?quality=75&strip=all&1706187839&w=1024',
+      'publishedAt': '2024-01-25T18:05:58Z',
+      'content': 'Kayla Nicole is opening up about her Jalen Hurts post that sent social media ablaze.\r\nDuring a recent appearance on the “Behind the Likes” podcast, the model and influencer who previously dated Chief… [+2547 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Terra.com.br'
+      },
+      'author': 'Game On',
+      'title': 'Horizon Forbidden West chega em março para PC',
+      'description': 'A Sony e a Guerrilla Games anunciaram, nesta quinta-feira (25), que Horizon Forbidden West ...',
+      'url': 'https://www.terra.com.br/gameon/plataformas-e-consoles/horizon-forbidden-west-edicao-completa-chega-em-marco-para-pc,a7ef19f923949cb1d7b98f944a73cb8esc4vxf5h.html',
+      'urlToImage': 'https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2024/01/25/attachment-php-1hre7ieejw6ld.jpg',
+      'publishedAt': '2024-01-25T18:05:52Z',
+      'content': 'A Sony e a Guerrilla Games anunciaram, nesta quinta-feira (25), que Horizon Forbidden West Edição Completa chega no dia 21 de março ao PC. O jogo custa\xa0R$ 249,90 e acompanha a expansão Burning Shores… [+1973 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Euronews'
+      },
+      'author': None,
+      'title': 'Meet Matthieu Travers, one of the 11,000 torchbearers for the Paris 2024 Olympic Games',
+      'description': 'On 26 July 2024, the Olympic flame will arrive on the banks of the River Seine, for the opening ceremony of the Paris 2024 Olympic Games.',
+      'url': 'https://www.euronews.com/2024/01/25/meet-matthieu-travers-one-of-the-11000-torchbearers-for-the-paris-2024-olympic-games',
+      'urlToImage': 'https://static.euronews.com/articles/stories/08/19/48/80/1200x675_cmsv2_47f28545-5642-5b5c-af20-7cb80ccdf080-8194880.jpg',
+      'publishedAt': '2024-01-25T18:05:49Z',
+      'content': 'On 26 July 2024, the Olympic flame will arrive on the banks of the River Seine, for the opening ceremony of the Paris 2024 Olympic Games. \r\n "To tell you the truth, I had tears in my eyes because for… [+1822 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'MobileSyrup'
+      },
+      'author': 'Bradly Shankar',
+      'title': 'Apple adds new options game streaming services, apps containing mini-apps and games',
+      'description': 'Apple has added new options for developers with game streaming services and apps that contain smaller apps and games. Now, developers can submit a single app capable of streaming all of the games offered within its catalogue. Apple also teases that developers…',
+      'url': 'https://mobilesyrup.com/2024/01/25/apple-new-options-game-streaming-services-apps-mini-apps-games/',
+      'urlToImage': 'https://cdn.mobilesyrup.com/wp-content/uploads/2023/11/Apple-Store-Awards-2023-scaled.jpg',
+      'publishedAt': '2024-01-25T18:05:45Z',
+      'content': 'Apple has added new options for developers with game streaming services and apps that contain smaller apps and games.\r\nNow, developers can submit a single app capable of streaming all of the games of… [+1539 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Pausaparafeminices.com'
+      },
+      'author': 'Bruna Tavares',
+      'title': 'Gamble 16,000+ Online Gambling games Enjoyment',
+      'description': 'Content Enjoy 16,000+ 100 percent free Casino games Inside Trial Form Where Would you Gamble Totally free Casino games In the us On line? Slotomania, The brand new Worlds #1 Totally free Ports Online game, Was developed Last year From the Playtika Is Free Slo…',
+      'url': 'https://www.pausaparafeminices.com/ppf/gamble-16000-online-gambling-games-enjoyment/',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T18:05:23Z',
+      'content': 'You can love to install a totally free harbors application, or if you favor you can access a mobile gambling establishment inside the their web browser lightpokies.com my company and play because you… [+3755 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gamekult'
+      },
+      'author': 'Jarod',
+      'title': 'Aloy signera son retour sur PC le 21 mars avec Horizon Forbidden West',
+      'description': 'Après avoir distribué une dizaine de jeux PlayStation Studios sur PC depuis 2020, Sony Interactive Entertainment poursuit sur sa lancée et annonce la date de sortie de Horizon Forbidden West Complete Edition.',
+      'url': 'https://www.gamekult.com/actualite/aloy-signera-son-retour-sur-pc-le-21-mars-avec-horizon-forbidden-west-3050857469.html',
+      'urlToImage': 'https://cdn.gamekult.com/optim/images/news/30/3050857469/aloy-signera-son-retour-sur-pc-le-21-mars-avec-horizon-forbidden-west-f69c75ae__w854.jpg',
+      'publishedAt': '2024-01-25T18:05:00Z',
+      'content': "Le 7 août 2020, la sortie de Horizon Zero Dawn sur PC marquait le début d'une nouvelle étape dans l'histoire de PlayStation. Car si le constructeur avait déjà autorisé la publication de quelques lice… [+1492 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Futura'
+      },
+      'author': 'Edward Back, Journaliste hi-tech',
+      'title': 'Sony transforme sa première voiture en console de jeu sur roues !',
+      'description': 'Sony a récemment présenté le tout dernier prototype de sa prochaine voiture électrique développée avec Honda. Telle une console de jeu sur roues, elle embarquera Unreal Engine\xa0ainsi que de l’intelligence artificielle.',
+      'url': 'https://www.futura-sciences.com/tech/actualites/smartmotion-sony-transforme-premiere-voiture-console-jeu-roues-111028/',
+      'urlToImage': 'https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/1/5/2/152aed0c39_50211448_voiture-sony-honda-afeela.jpg',
+      'publishedAt': '2024-01-25T18:05:00Z',
+      'content': 'Cela vous intéressera aussi\r\n[EN VIDÉO]Réalité virtuelle et réalité augmentée : quelles différences ?\xa0Ces termes sont apparus il y a quelques années maintenant, mais quelles différences existent vrai… [+1865 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Screen Rant'
+      },
+      'author': 'Kyle Gratton',
+      'title': 'Palworld: "Sorry, You Are Currently Prevented From Playing" Error Explained',
+      'description': 'Palworld has had an incredibly successful launch, but early access titles aren’t without their faults, including online multiplayer errors.',
+      'url': 'https://screenrant.com/palworld-prevented-playing-online-multiplayer-games-error/',
+      'urlToImage': 'https://static1.srcdn.com/wordpress/wp-content/uploads/2024/01/palworld-lifmunk-grizzbolt.jpg',
+      'publishedAt': '2024-01-25T18:04:59Z',
+      'content': 'Summary\r\n<ul><li> The "Sorry, you\'re currently prevented from playing online multiplayer games" error in Palworld most commonly occurs due to an outdated game client. </li><li> To fix the error, play… [+3599 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CBS Sports'
+      },
+      'author': 'John Breech',
+      'title': '5 things to know about Chargers hiring Jim Harbaugh, plus who has the edge in AFC and NFC title games',
+      'description': "Here's everything you need to know about the NFL for Jan. 25",
+      'url': 'https://www.cbssports.com/nfl/news/5-things-to-know-about-chargers-hiring-jim-harbaugh-plus-who-has-the-edge-in-afc-and-nfc-title-games/',
+      'urlToImage': 'https://sportshub.cbsistatic.com/i/r/2024/01/25/cecf5548-dd92-4832-98a6-8476b02d8205/thumbnail/1200x675/e0c416454755262f0d278af0f0ccbcb0/jim-harbaugh.jpg',
+      'publishedAt': '2024-01-25T18:04:34Z',
+      'content': "Welcome to the Thursday edition of the Pick Six newsletter!\r\nIt's official: The Harbaugh brothers are taking over the NFL. Not only do we have John Harbaugh coaching in the AFC Championship this week… [+15278 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'SNY.tv'
+      },
+      'author': 'SNY',
+      'title': 'Jets’ Breece Hall not named finalist for NFL Comeback Player of the Year 2023',
+      'description': 'A year after missing time with a torn ACL, Jets running back Breece Hall played in every game this season but was not named a finalist for Comeback Player of the Year.',
+      'url': 'https://sny.tv/articles/jets-breece-hall-snubbed-finalist-nfl-comeback-player-year-2023',
+      'urlToImage': 'https://media.zenfs.com/en/sny_articles_235/76dec914b656ac0095a02112300cd22a',
+      'publishedAt': '2024-01-25T18:04:27Z',
+      'content': 'Breece Halls return from an ACL injury was a major storyline for the Jets this season, and he went beyond expectations in his return.\r\nHowever, the second-year running back was not named a finalist f… [+1422 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': '[Removed]'
+      },
+      'author': None,
+      'title': '[Removed]',
+      'description': '[Removed]',
+      'url': 'https://removed.com',
+      'urlToImage': None,
+      'publishedAt': '1970-01-01T00:00:00Z',
+      'content': '[Removed]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Apple Newsroom'
+      },
+      'author': None,
+      'title': 'Apple Announces Changes to iOS, Safari, and the App Store in the European Union',
+      'description': 'Apple announced changes to iOS, Safari, and the App Store impacting developers’ apps in the EU to comply with the DMA.',
+      'url': 'https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/',
+      'urlToImage': 'https://www.apple.com/newsroom/images/2024/01/apple-announces-changes-to-ios-app-store-safari-in-the-eu/tile/Apple-EU-Digital-Markets-Act-updates-hero-lp.jpg.og.jpg?202401251814',
+      'publishedAt': '2024-01-25T18:03:26Z',
+      'content': 'January 25, 2024\r\nPRESS RELEASE\r\nApple announces changes to iOS, Safari, and the App\xa0Store in the European Union\r\nFor developers, the changes include new options for app distribution and payment proc… [+13428 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CNA'
+      },
+      'author': None,
+      'title': 'Apple to allow downloads outside App Store in EU, with new fees',
+      'description': "Apple on Thursday outlined its plans to allow software developers to distribute their apps to users in the European Union outside of Apple's own App Store.The move is in response to a new EU law called the Digital Markets Act, which requires companies with mo…",
+      'url': 'https://www.channelnewsasia.com/business/apple-allow-downloads-outside-app-store-eu-new-fees-4075251',
+      'urlToImage': 'https://onecms-res.cloudinary.com/image/upload/s--QLqSamAy--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2024-01-25t180324z_1_lynxmpek0o0ps_rtroptp_3_apple-france.jpg?itok=QPdt5FjI',
+      'publishedAt': '2024-01-25T18:03:24Z',
+      'content': "Apple on Thursday outlined its plans to allow software developers to distribute their apps to users in the European Union outside of Apple's own App Store.\r\nThe move is in response to a new EU law ca… [+2404 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Android Authority'
+      },
+      'author': 'Matt Horne',
+      'title': 'Get game-ready with rare 50% savings on the TCL 98-inch 4K smart TV',
+      'description': 'The stunning TCL 98-inch 4K LED smart TV just dropped to an all-time low price of $1,998, just in time for the Superbowl.',
+      'url': 'https://www.androidauthority.com/tcl-98-inch-4k-smart-tv-deal-3407733/',
+      'urlToImage': 'https://www.androidauthority.com/wp-content/uploads/2024/01/TCL-98-Inch-Class-S5-4K-LED-Smart-TV-with-Google-TV-Promo-Image.jpg',
+      'publishedAt': '2024-01-25T18:03:00Z',
+      'content': 'This high-end TV is more than just screen real estate. Its powered by the TCL AIPQ Engine with Deep Learning AI that optimizes color, contrast, and clarity, ensuring a top-tier 4K HDR experience. 4K … [+538 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Multiplayer.it'
+      },
+      'author': 'Simone Tagliaferri',
+      'title': 'Reikon Games ha licenziato circa 60 persone: è lo studio di Ruiner',
+      'description': "Licenziamenti anche in Reikon Games, lo studio di Ruiner, che ha lasciato a casa 60 persone in questo gennaio davvero da dimenticare per l'industria dei videogiochi.",
+      'url': 'https://multiplayer.it/notizie/reikon-games-ha-licenziato-circa-60-persone-studio-ruiner.html',
+      'urlToImage': 'https://multiplayer.net-cdn.it/thumbs/images/2016/06/23/ruiner_-_screen_10_cropped_4_16_1918_875_jpeg_1200x0_crop_q85.jpg',
+      'publishedAt': '2024-01-25T18:02:32Z',
+      'content': "Reikon Games avrebbe licenziato circa l'80% del suo staff, ossia tra le 60 e le 70 persone. È lo studio di sviluppo di Ruiner. Il numero esatto non è noto, ma i licenziamenti sono stati confermati da… [+1141 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'We-heart.com'
+      },
+      'author': 'Steven John',
+      'title': 'Experience Luxury on a Private Boat Cruise',
+      'description': 'A luxury private boat cruise entails personalized services on an opulent yacht. Guests enjoy gourmet meals, a dedicated crew, sumptuously furnished accommodations, and often, a range of watersports activities. The ambiance is incredibly serene, with mesmerizi…',
+      'url': 'https://www.we-heart.com/2024/01/25/experience-luxury-on-a-private-boat-cruise/',
+      'urlToImage': 'https://www.we-heart.com/upload-images/privateboatcruise2.jpg',
+      'publishedAt': '2024-01-25T18:02:18Z',
+      'content': 'A luxury private boat cruise entails personalized services on an opulent yacht. Guests enjoy gourmet meals, a dedicated crew, sumptuously furnished accommodations, and often, a range of watersports a… [+8336 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Faz.net'
+      },
+      'author': 'Maximilian Sachse',
+      'title': 'Digital Markets Act: Apple öffnet sich für Drittanbieter',
+      'description': 'Neue EU-Regeln zwingen Apple, erstmals alternative App Stores auf seinen iPhones zuzulassen. Es ist nicht die einzige Neuerung mit weitreichenden Folgen für Verbraucher und Entwickler.',
+      'url': 'https://www.faz.net/aktuell/wirtschaft/unternehmen/apple-laesst-erstmals-alternative-app-stores-auf-iphones-zu-19474153.html',
+      'urlToImage': 'https://media1.faz.net/ppmedia/aktuell/1024205000/1.9474149/facebook_teaser/erzwungen-offener-iphone.jpg',
+      'publishedAt': '2024-01-25T18:02:14Z',
+      'content': 'Der amerikanische Tech-Konzern Apple lässt ab März in der Europäischen Union (EU) erstmals alternative App Stores auf seinen iPhones zu. Das kündigte das Unternehmen am Donnerstagabend deutscher Zeit… [+4022 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Faz.net'
+      },
+      'author': 'Maximilian Sachse',
+      'title': 'Digital Markets Act: Apple öffnet sich für Drittanbieter',
+      'description': 'Neue EU-Regeln zwingen Apple, erstmals alternative App Stores auf seinen iPhones zuzulassen. Es ist nicht die einzige Neuerung mit weitreichenden Folgen für Verbraucher und Entwickler.',
+      'url': 'https://www.faz.net/aktuell/wirtschaft/unternehmen/apple-laesst-alternative-app-stores-auf-iphones-zu-19474153.html',
+      'urlToImage': 'https://media1.faz.net/ppmedia/aktuell/1024205000/1.9474149/facebook_teaser/erzwungen-offener-iphone.jpg',
+      'publishedAt': '2024-01-25T18:02:14Z',
+      'content': 'Der amerikanische Tech-Konzern Apple lässt ab März in der Europäischen Union (EU) erstmals alternative App Stores auf seinen iPhones zu. Das kündigte das Unternehmen am Donnerstagabend deutscher Zeit… [+4022 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GQ Magazine'
+      },
+      'author': 'Calum Marsh',
+      'title': 'The CrossFit Sneaker Wars Are Heating Up',
+      'description': 'Nike, Reebok, and a legion of upstart footwear brands are vying for cross-training shoe supremacy.',
+      'url': 'https://www.gq.com/story/crossfit-sneaker-war-nike-reebok-goruck',
+      'urlToImage': 'https://media.gq.com/photos/65b16b003d4df7b2c0ae2a41/16:9/w_1280,c_limit/cross-trainers.jpg',
+      'publishedAt': '2024-01-25T18:02:14Z',
+      'content': 'In the summer of 201510 years after Reebok signed a landmark deal to become the official athletic brand of CrossFit Inc.Nike announced that its own competing cross-training sneaker, the Nike Metcon, … [+3272 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Faz.net'
+      },
+      'author': 'Maximilian Sachse',
+      'title': 'Digital Markets Act: Apple öffnet sich für Drittanbieter',
+      'description': 'Neue EU-Regeln zwingen Apple, erstmals alternative App Stores auf seinen iPhones zuzulassen. Es ist nicht die einzige Neuerung mit weitreichenden Folgen für Verbraucher und Entwickler.',
+      'url': 'https://www.faz.net/aktuell/wirtschaft/unternehmen/apple-laesst-auf-iphones-erstmals-alternative-app-stores-zu-19474153.html',
+      'urlToImage': 'https://media1.faz.net/ppmedia/aktuell/1024205000/1.9474149/facebook_teaser/erzwungen-offener-iphone.jpg',
+      'publishedAt': '2024-01-25T18:02:14Z',
+      'content': 'Der amerikanische Tech-Konzern Apple lässt ab März in der Europäischen Union (EU) erstmals alternative App Stores auf seinen iPhones zu. Das kündigte das Unternehmen am Donnerstagabend deutscher Zeit… [+4022 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Marketscreener.com'
+      },
+      'author': None,
+      'title': 'Apple announces changes to iOS, Safari, and the App Store in the European Union',
+      'description': '(marketscreener.com) \nFor developers, the changes include new options for app distribution and payment processing\n\n\nFor users, the changes include new controls and disclosures, and expanded protections to reduce privacy and security risks the DMA creates\n\nhtt…',
+      'url': 'https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Apple-announces-changes-to-iOS-Safari-and-the-App-Store-in-the-European-Union-45815501/',
+      'urlToImage': 'https://www.marketscreener.com/images/twitter_MS_fdnoir.png',
+      'publishedAt': '2024-01-25T18:02:01Z',
+      'content': 'For developers, the changes include new options for app distribution and payment processing\r\nFor users, the changes include new controls and disclosures, and expanded protections to reduce privacy an… [+14052 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gagadget.com'
+      },
+      'author': 'gagadget.com',
+      'title': 'Sony раскрыла дату релиза PC-версии экшена Horizon Forbidden West. В Steam и EGS стартовал прием предзаказов',
+      'description': 'В Horizon Forbidden West Complete Edition войдет и крупное сюжетное дополнением The Burning Shore',
+      'url': 'https://gagadget.com/ru/389354-sony-raskryila-datu-reliza-pc-versii-ekshena-horizon-forbidden-west-v-steam-i-egs-startoval-priem-predzakazov/',
+      'urlToImage': 'https://gagadget.com/media/cache/02/36/0236dceefe04c0d075438b5fceb587e3.jpg',
+      'publishedAt': '2024-01-25T18:01:21Z',
+      'content': 'Sony PC- Horizon Forbidden West PlayStation.\r\nPC.\r\n Horizon Forbidden West , DLSS 3, FSR, XeSS Direct Storage Microsoft, .\r\n , DualSense.\r\n Horizon Forbidden West Complete Edition The Burning Shore.\r… [+94 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'FRANCE 24 English'
+      },
+      'author': 'FRANCE24',
+      'title': 'Former Rangers star Davis retires',
+      'description': 'Davis set a British record for male international caps with 140 appearances for Northern Ireland.\n\nHe had two spells with Rangers, playing a central role in four Scottish Premiership titles, as well as lifting the Scottish Cup and Scottish League Cup on three…',
+      'url': 'https://www.france24.com/en/live-news/20240125-former-rangers-star-davis-retires',
+      'urlToImage': 'https://s.france24.com/media/display/b5da096e-bbab-11ee-8443-005056bf30b7/w:1280/p:16x9/1b084e19410818625b8bae809f334b72a0dff6aa.jpg',
+      'publishedAt': '2024-01-25T18:01:06Z',
+      'content': 'Glasgow (AFP) Rangers and Northern Ireland midfielder Steven Davis announced his retirement on Thursday after conceding defeat in his battle to return from a knee injury. Davis set a British record f… [+1362 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Levelup.com'
+      },
+      'author': 'Ulises Contreras',
+      'title': 'Aclamado exclusivo de PlayStation llegará pronto a PC con estas novedades',
+      'description': 'Desde hace un par de años, PlayStation lleva sus juegos más importantes a PC, una estrategia que permite que una nueva audiencia pueda disfrutarlos. Por suerte, uno de sus lanzamientos más interesantes abandonará la exclusividad con PS4 y PS5 y llegará en poc…',
+      'url': 'https://www.levelup.com/noticias/772972/Aclamado-exclusivo-de-PlayStation-llegara-pronto-a-PC-con-estas-novedades',
+      'urlToImage': 'https://cl.buscafs.com/www.levelup.com/public/uploads/images/833618/833618_600x315.jpg',
+      'publishedAt': '2024-01-25T18:01:00Z',
+      'content': 'Desde hace un par de años, PlayStation lleva sus juegos más importantes a PC, una estrategia que permite que una nueva audiencia pueda disfrutarlos. Por suerte, uno de sus lanzamientos más interesant… [+2734 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Overclockers.ru'
+      },
+      'author': 'Breaking news',
+      'title': 'Обновление PlayStation 5 блокирует подключение эмулятора контроллера Cronus Zen',
+      'description': '«Нечистые на руку» геймеры могут существенно пострадать.',
+      'url': 'https://overclockers.ru/blog/breaking-news/show/134234/Obnovlenie-PlayStation-5-blokiruet-podkljuchenie-kontrollerov-ispol-zujuschihsya-dlya-nechestnoj-igry',
+      'urlToImage': 'https://overclockers.ru/st/legacy/blog/429624/468459_O.jpg',
+      'publishedAt': '2024-01-25T18:00:42Z',
+      'content': ', , , , - Sony The Verge, PlayStation 5 , « » .\r\n:\xa0WIRED, Sony\r\n Cronus Zen, , , .\r\n , PlayStation 5 , «», , .\r\n , Cronus Zen, 24.01-08.60.00 PlayStation 5 .\r\n - , PS5, .\r\n Sony , , Cronus Zen , ReaS… [+74 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Www.nu.nl'
+      },
+      'author': 'Rutger Otto',
+      'title': 'Straks kun je (tot onvrede van Apple) iPhone-apps buiten App Store downloaden',
+      'description': 'Apple gaat binnenkort wat verder open. Bezitters van een iPhone of iPad kunnen vanaf maart niet alleen apps downloaden via de officiële App Store, maar ook bij appwinkels van andere partijen. Het bedrijf laat doorschemeren niet zo blij te zijn met deze verand…',
+      'url': 'https://www.nu.nl/tech/6299112/straks-kun-je-tot-onvrede-van-apple-iphone-apps-buiten-app-store-downloaden.html',
+      'urlToImage': 'https://media.nu.nl/m/3foxz32ao8px_wd1280/straks-kun-je-tot-onvrede-van-apple-iphone-apps-buiten-app-store-downloaden.jpg',
+      'publishedAt': '2024-01-25T18:00:41Z',
+      'content': '25 jan 2024 om 19:00 Update: 2 minuten geleden \r\nApple gaat binnenkort wat verder open. Bezitters van een iPhone of iPad kunnen vanaf maart niet alleen apps downloaden via de officiële App Store, maa… [+3308 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Yahoo Entertainment'
+      },
+      'author': 'Heather Taylor',
+      'title': 'Rachel Cruze: 14 Cheap Valentine’s Day Date Ideas',
+      'description': "Valentine's Day is just around the corner, and if you're worried you don't have enough money for a lavish celebration, you've come to the right place. In a...",
+      'url': 'https://finance.yahoo.com/news/rachel-cruze-14-cheap-valentine-180038065.html',
+      'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/Ggn7pV08g6FMQQPIIHvPZA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gobankingrates_644/7c3e8c367c7fd76ebb82ee194cbc5a95',
+      'publishedAt': '2024-01-25T18:00:38Z',
+      'content': 'Valentines Day is just around the corner, and if youre worried you dont have enough money for a lavish celebration, youve come to the right place. In a post on Ramsey Solutions, money expert Rachel C… [+4781 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Digital Trends'
+      },
+      'author': 'Alan Truly',
+      'title': 'Can the Vision Pro play VR games?',
+      'description': "Apple's Vision Pro has the power of a computer, making it a high-performance VR headset, but will it get any VR games and are any available at launch?",
+      'url': 'https://www.digitaltrends.com/computing/can-the-vision-pro-play-vr-games/',
+      'urlToImage': 'https://www.digitaltrends.com/wp-content/uploads/2024/01/A-person-wearing-the-Apple-Vision-Pro-overlaid-on-a-screenshot-of-Half-Life-Alyx.jpg?resize=1200%2C630&p=1',
+      'publishedAt': '2024-01-25T18:00:30Z',
+      'content': 'A person wearing the Apple Vision Pro overlaid on a screenshot of Half-Life: Alyx.Apple/Valve\r\nThe Apple Vision Pro is best described as a spatial computer, but it’s also a VR headset with great mixe… [+5578 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'MobileSyrup'
+      },
+      'author': "Patrick O'Rourke",
+      'title': 'Horizon Forbidden West is coming to PC on March 21',
+      'description': 'Previously PlayStation 5-exclusive title Horizon Forbidden West: Complete Edition is coming to PC on March 21st. New features include ultra-wide monitor support across 21:9, 32:9 and 48:9 aspect ratios, alongside triple-monitor setup compatibility. The critic…',
+      'url': 'https://mobilesyrup.com/2024/01/25/horizon-forbidden-west-coming-to-pc-march-21/',
+      'urlToImage': 'https://cdn.mobilesyrup.com/wp-content/uploads/2024/01/horizon-forbidden-west-complete-edition.jpg',
+      'publishedAt': '2024-01-25T18:00:29Z',
+      'content': 'Previously PlayStation 5-exclusive title Horizon Forbidden West: Complete Edition is coming to PC on March 21st.\r\nNew features include ultra-wide monitor support across 21:9, 32:9 and 48:9 aspect rat… [+1177 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Yahoo Entertainment'
+      },
+      'author': None,
+      'title': 'Apple lets apps feature streaming games, chatbots and other built-in experiences',
+      'description': None,
+      'url': 'https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3f12d3c5-4f2d-4b4a-8e41-cf9608ade631',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T18:00:16Z',
+      'content': 'Si vous cliquez sur «\xa0Tout accepter\xa0», nos partenaires (y compris 244 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]'
+    },
+    {
+      'source': {
+        'id': 'engadget',
+        'name': 'Engadget'
+      },
+      'author': 'Devindra Hardawar',
+      'title': 'Apple lets apps feature streaming games, chatbots and other built-in experiences',
+      'description': "Apple's app platform is finally opening up a bit. Today, the company said that it will allow developers to utilize new in-app experiences, including streaming games, accessing mini-apps, and talking with chatbots. That means devs can create a single app that …",
+      'url': 'https://www.engadget.com/apple-lets-apps-feature-streaming-games-chatbots-and-other-built-in-experiences-180016453.html',
+      'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/y48DJRu_Fj9NqRB7XU_pQA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-12/81dbc140-9c55-11ee-9ebe-4d6e69220a77',
+      'publishedAt': '2024-01-25T18:00:16Z',
+      'content': "Apple's app platform is finally opening up a bit. Today, the company said that it will allow developers to utilize new in-app experiences, including streaming games, accessing mini-apps, and talking … [+1551 chars]"
+    },
+    {
+      'source': {
+        'id': 't3n',
+        'name': 'T3n'
+      },
+      'author': 'Stefica Budimir Bekan',
+      'title': 'Microsoft entlässt 1.900 Angestellte bei Activision Blizzard und Xbox',
+      'description': 'Erst kürzlich haben Riot Games, Google, Twitch und Ebay Entlassungen angekündigt. Nun hat die Kündigungswelle auch Microsoft eingeholt. Hauptsächlich betroffen sind Stellen bei Activision Blizzard und Xbox. Und auch das geplante Survival-Game wurde gestoppt.\n…',
+      'url': 'https://t3n.de/news/microsoft-entlaesst-angestellte-activision-blizzard-xbox-1604358/',
+      'urlToImage': 'https://t3n.de/news/wp-content/uploads/2024/01/shutterstock_2021183171.jpg',
+      'publishedAt': '2024-01-25T18:00:12Z',
+      'content': 'Wie vor Kurzem bekannt wurde, will Google in einem großen Rundumschlag 1.000 Beschäftigten kündigen. Und auch die Gaming-Branche wird schon länger von einer Entlassungswelle überspült.\r\nNun reiht sic… [+4447 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'MacRumors'
+      },
+      'author': 'Juli Clover',
+      'title': 'iOS 17.4 Introduces Alternative App Marketplaces With No Commission in EU',
+      'description': 'Apple today announced major changes to its app ecosystem in the European Union, implementing updates that will allow iPhone and iPad users to download and install apps outside of the App Store through alternative app marketplaces.\n\n\n\n\n\nAlternative app marketp…',
+      'url': 'https://www.macrumors.com/2024/01/25/ios-17-4-alternative-app-marketplaces-eu/',
+      'urlToImage': 'https://images.macrumors.com/t/Z4nU2dRocDnr4NPvf-sGNedmPGA=/2250x/article-new/2022/01/iOS-App-Store-General-Feature-JoeBlue.jpg',
+      'publishedAt': '2024-01-25T18:00:09Z',
+      'content': 'Apple today announced major changes to its app ecosystem in the European Union, implementing updates that will allow iPhone and iPad users to download and install apps outside of the App Store throug… [+5240 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Wealthofgeeks.com'
+      },
+      'author': 'Joe George',
+      'title': 'The Most Awesome Anthony Hopkins Movies Every Fan Should See',
+      'description': 'Anthony Hopkins was well into his fifties when became a Hollywood leading man when he won the Best Actor Oscar for playing Hannibal Lecter in The Silence of the Lambs 1991. But the Welsh-born actor had a full career before that, on stage, television, and film…',
+      'url': 'https://wealthofgeeks.com/awesome-anthony-hopkins-movies/',
+      'urlToImage': 'https://wealthofgeeks.com/wp-content/uploads/2023/09/The-Silence-of-the-Lambs_Orion-Pictures.jpg',
+      'publishedAt': '2024-01-25T18:00:06Z',
+      'content': 'Anthony Hopkins was well into his fifties when became a Hollywood leading man when he won the Best Actor Oscar for playing Hannibal Lecter in The Silence of the Lambs 1991. But the Welsh-born actor h… [+17694 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Digital Trends'
+      },
+      'author': 'Tomas Franzese',
+      'title': 'Apple eases App Store restrictions to allow game-streaming apps',
+      'description': 'Apple is easing App Store restrictions to allow cloud gaming apps that feature multiple playable games within a single app.',
+      'url': 'https://www.digitaltrends.com/gaming/app-cloud-gaming-apps-eased-restrictions/',
+      'urlToImage': 'https://www.digitaltrends.com/wp-content/uploads/2022/07/app-store-on-screen-illustration.jpg?resize=1200%2C630&p=1',
+      'publishedAt': '2024-01-25T18:00:02Z',
+      'content': 'Sony finally revealed more details about its upcoming handheld, now called PlayStation Portal, but these announcements have soured my opinion on the device rather than hyped me up for it. I enjoy clo… [+1912 chars]'
+    },
+    {
+      'source': {
+        'id': 'usa-today',
+        'name': 'USA Today'
+      },
+      'author': 'Data Skrive',
+      'title': 'How to Watch Qinwen Zheng vs. Aryna Sabalenka at the 2024 Australian Open: Live Stream, TV Channel',
+      'description': 'On Saturday, Qinwen Zheng (No. 15 in the world) takes on Aryna Sabalenka (No. 2) in the final of the Australian Open.In her most recent match on Thursday, Zheng defeated Dayana Yastremska in two se…',
+      'url': 'https://ftw.usatoday.com/article/how-to-watch-qinwen-zheng-vs-aryna-sabalenka-at-the-2024-australian-open-live-stream-tv-channel',
+      'urlToImage': 'https://ftw.usatoday.com/wp-content/uploads/sites/90/2024/01/10192539-30.jpg?w=1024&h=576&crop=1',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'On Saturday, Qinwen Zheng (No. 15 in the world) takes on Aryna Sabalenka (No. 2) in the final of the Australian Open.\r\nIn her most recent match on Thursday, Zheng defeated Dayana Yastremska in two se… [+2951 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Marketscreener.com'
+      },
+      'author': None,
+      'title': 'Apple to allow downloads outside App Store in EU, with new fees',
+      'description': "(marketscreener.com) Apple on Thursday outlined\nits plans to allow software developers to distribute their apps\nto users in the European Union outside of Apple's own App Store.\n The move is in response to a new EU law called the Digital\nMarkets Act, which req…",
+      'url': 'https://www.marketscreener.com/quote/stock/APPLE-INC-4849/news/Apple-to-allow-downloads-outside-App-Store-in-EU-with-new-fees-45815494/',
+      'urlToImage': 'https://www.marketscreener.com/images/reuters/2023-09/2023-09-13T114923Z_1_LYNXMPEJ8C0II_RTROPTP_3_APPLE-FRANCE.JPG',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': "Jan 25 (Reuters) - Apple on Thursday outlined\r\nits plans to allow software developers to distribute their apps\r\nto users in the European Union outside of Apple's own App Store.\r\nThe move is in respon… [+2539 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Yahoo Entertainment'
+      },
+      'author': 'Samuel Stolton and Mark Gurman',
+      'title': 'Apple Overhauls App Store, iPhone Features in EU to Appease Regulators',
+      'description': '(Bloomberg) -- Apple Inc. is embarking on a historic overhaul of its iOS, Safari and App Store offerings in the European Union, aiming to placate regulators ...',
+      'url': 'https://finance.yahoo.com/news/apple-overhauls-app-store-iphone-180000307.html',
+      'urlToImage': 'https://s.yimg.com/ny/api/res/1.2/_7M4XdEA2mHWapG.28NjVw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTA-/https://media.zenfs.com/en/bloomberg_technology_68/fe1a61d8526efa998f7148764c369817',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': '(Bloomberg) -- Apple Inc. is embarking on a historic overhaul of its iOS, Safari and App Store offerings in the European Union, aiming to placate regulators set to impose tough new antitrust rules.\r\n… [+6576 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gameinformer.com'
+      },
+      'author': 'Marcus Stewart',
+      'title': 'Solving Over 10,000 Puzzles In Islands of Insight | New Gameplay Today',
+      'description': 'In this episode of New Gameplay Today, editors Marcus Stewart and Kyle Hilliard explore the opening section of an early in-development build of Islands of Insight. The open-world game tasks players with solving over 10,000 puzzles spread across multiple islan…',
+      'url': 'https://www.gameinformer.com/ngt/2024/01/25/solving-over-10000-puzzles-in-islands-of-insight-new-gameplay-today',
+      'urlToImage': 'https://www.gameinformer.com/sites/default/files/styles/thumbnail/public/2024/01/25/f3192707/ngt_islandsofinsight_c_yt.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'In this episode of New Gameplay Today, editors Marcus Stewart and Kyle Hilliard explore the opening section of an early in-development build of Islands of Insight. The open-world game tasks players w… [+456 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Kotaku'
+      },
+      'author': 'Levi Winslow',
+      'title': 'Palworld Devs Are Aware Of The Game’s Growing Cheating Epidemic',
+      'description': 'Folks just can’t get enough of Palworld, the “Pokémon with guns” survival game that’s selling like hot cakes right now. While everyone and their mother’s getting in on the action, the game’s official servers are being plagued by cheaters and hackers that deve…',
+      'url': 'https://kotaku.com/palworld-cheat-hack-exploit-steam-xbox-patch-pocketpair-1851197306',
+      'urlToImage': 'https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/a30fc25cea98a49111237e9c95b469a5.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Folks just cant get enough of Palworld, the Pokémon with guns survival game thats selling like hot cakes right now. While everyone and their mothers getting in on the action, the games official serve… [+3514 chars]'
+    },
+    {
+      'source': {
+        'id': 'the-verge',
+        'name': 'The Verge'
+      },
+      'author': 'Andrew Webster',
+      'title': 'Apple opens App Store to game streaming services',
+      'description': 'Apple is making changes that will allow game streaming services like Xbox Cloud Gaming and GeForce Now to be featured in its App Store.',
+      'url': 'https://www.theverge.com/2024/1/25/24050430/apple-app-store-game-streaming',
+      'urlToImage': 'https://cdn.vox-cdn.com/thumbor/EEBmDh6emjqUa-wKnQI-JyZ-7lQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23598986/VRG_Illo_5258_K_Radtke_WWDC.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Apple opens App Store to game streaming services\r\nApple opens App Store to game streaming services\r\n / The likes of Xbox Cloud Gaming and GeForce Now will no longer be restricted to web apps.\r\nByAndr… [+1927 chars]'
+    },
+    {
+      'source': {
+        'id': 'ign',
+        'name': 'IGN'
+      },
+      'author': 'Taylor Lyles',
+      'title': 'Apple Finally Lets Other Companies Launch Their Own Storefronts on the App Store',
+      'description': 'Apple has updated its app store policies to allow third-party app stores onto its digital storefront.',
+      'url': 'https://www.ign.com/articles/apple-finally-lets-other-companies-launch-their-own-storefronts-on-the-app-store',
+      'urlToImage': 'https://assets-prd.ignimgs.com/2024/01/25/apple-blue-logos-blogroll-logos-1706202196032.jpg?width=1280',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Apple has introduced new policies allowing developers to launch their own digital storefronts within the app store.\r\nApple said its new policy change will allow developers to develop a single app cap… [+1791 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'VentureBeat'
+      },
+      'author': 'Dean Takahashi',
+      'title': 'Apple revises policies on streaming game services and apps with minigames',
+      'description': 'Apple is revising its policy for streaming game services and apps that provide access to mini apps and games.',
+      'url': 'https://venturebeat.com/games/apple-revises-policies-on-streaming-game-services-and-apps-with-minigames/',
+      'urlToImage': 'https://venturebeat.com/wp-content/uploads/2024/01/apple-news.jpg?w=1200&strip=all',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Do you want to get the latest gaming industry news straight to your inbox? Sign up for our daily and weekly newsletters here. \r\nApple is revising its policy for streaming game services and apps that … [+2412 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GamesIndustry.biz'
+      },
+      'author': 'Brendan Sinclair',
+      'title': 'Apple clears the way for Game Pass streaming on iOS',
+      'description': "Apple today has announced new rules that will allow game streaming apps onto iOS devices.The company first started prohibiting such apps in 2020, blocking Microsoft's Xbox Game Pass streaming app (then called ProjectXCloud) and Google's Stadia from the App St…",
+      'url': 'https://www.gamesindustry.biz/apple-clears-the-way-for-game-pass-on-ios',
+      'urlToImage': 'https://assetsio.reedpopcdn.com/apple-iphone-15-pro.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': "Apple today has announced new rules that will allow game streaming apps onto iOS devices.\r\nThe company first started prohibiting such apps in 2020, blocking Microsoft's Xbox Game Pass streaming app (… [+1373 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gizmodo.com'
+      },
+      'author': 'Maxwell Zeff',
+      'title': 'Microsoft Lays Off 1,900 Activision Blizzard, Xbox Staff One Day After $3 Trillion Valuation',
+      'description': 'Microsoft laid 1,900 employees in its gaming division, according to an internal memo seen by The Verge on Thursday, with a majority of the layoffs hitting its newly acquired Activision Blizzard employees. Some Xbox and ZeniMax employees were also affected, ac…',
+      'url': 'https://gizmodo.com/microsoft-lays-off-1900-activision-blizzard-xbox-staff-1851197062',
+      'urlToImage': 'https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/af1eddee1f14f4da3713bc732d290922.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Microsoft laid 1,900 employees in its gaming division, according to an internal memo seen by The Verge on Thursday, with a majority of the layoffs hitting its newly acquired Activision Blizzard emplo… [+2941 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gizmodo.com'
+      },
+      'author': 'Maxwell Zeff',
+      'title': 'Microsoft despide a 1.900 empleados de Activision Blizzard y Xbox un día después de una valoración de 3 billones de dólares',
+      'description': 'Microsoft contrató a 1.900 empleados en su división de juegos, según una nota interna vista por El borde El jueves, la mayoría de los despidos afectaron a los empleados recién adquiridos de Activision Blizzard. Algunos empleados de Xbox y ZeniMax también se v…',
+      'url': 'https://es.gizmodo.com/microsoft-despide-al-personal-de-1900-activision-blizza-1851197363',
+      'urlToImage': 'https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/af1eddee1f14f4da3713bc732d290922.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Microsoft contrató a 1.900 empleados en su división de juegos, según una nota interna vista por El borde El jueves, la mayoría de los despidos afectaron a los empleados recién adquiridos de Activisio… [+3622 chars]'
+    },
+    {
+      'source': {
+        'id': 'the-verge',
+        'name': 'The Verge'
+      },
+      'author': 'Jon Porter',
+      'title': 'Apple is bringing sideloading and alternate app stores to the iPhone',
+      'description': 'Apple has announced how it plans to change the rules for developers releasing iOS software in the European Union in response to the bloc’s Digital Markets Act (DMA).',
+      'url': 'https://www.theverge.com/2024/1/25/24050200/apple-third-party-app-stores-allowed-iphone-ios-europe-digital-markets-act',
+      'urlToImage': 'https://cdn.vox-cdn.com/thumbor/ioXP09GeTx3QY0vxAYAfEsMgKUk=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23951262/VRG_Illo_N_Barclay_1_apple.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'Apple is bringing sideloading and alternate app stores to the iPhone\r\nApple is bringing sideloading and alternate app stores to the iPhone\r\n / iPhone users but only those in the EU \xa0will be able to d… [+7092 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Rock Paper Shotgun'
+      },
+      'author': 'Katharine Castle',
+      'title': 'Uh oh, Balatro might be the deckbuilder to end all deckbuilders',
+      'description': "When I sat down at my desk after lunch today, I thought, I'm just going to give this demo for Balatro a tiny go, just to get my head round its poker-based roguelike deckbuilding. Cut to several hours later and I've had to forcibly shut the game down and wrenc…",
+      'url': 'https://www.rockpapershotgun.com/uh-oh-balatro-might-be-the-deckbuilder-to-end-all-deckbuilders',
+      'urlToImage': 'https://assetsio.reedpopcdn.com/balatro.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': "When I sat down at my desk after lunch today, I thought, I'm just going to give this demo for Balatro a tiny go, just to get my head round its poker-based roguelike deckbuilding. Cut to several hours… [+4312 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'netzwelt'
+      },
+      'author': 'Katharina Grothkopp',
+      'title': 'Konkurrenz für "Sommerhaus der Stars"? Das sind die Unterschiede zum Realitykracher "Forsthaus Rampensau Germany"!',
+      'description': 'Das RTL-Format "Sommerhaus der Stars" ist eines der beliebtesten Realityformate in Deutschland. Nun kommt Joyn mit der deutschen Auflage von "Forsthaus Rampensau Germany" um die Ecke und begeistert die Zuschauer! Netzwelt verrät die größten Unterschiede der F…',
+      'url': 'https://www.netzwelt.de/news/226928-konkurrenz-sommerhaus-stars-unterschiede-realitykracher-forsthaus-rampensau-germany.html',
+      'urlToImage': 'https://img.netzwelt.de/dw1600_dh900_sw1200_sh675_sx0_sy40_sr16x9_nu2/picture/original/2023/08/joyn-mediencenterjpg-382284.jpg',
+      'publishedAt': '2024-01-25T18:00:00Z',
+      'content': 'ENTERTAINMENT\r\nDas RTL-Format "Sommerhaus der Stars" ist eines der beliebtesten Realityformate in Deutschland. Nun kommt Joyn mit der deutschen Auflage von "Forsthaus Rampensau Germany" um die Ecke u… [+4031 chars]'
+    },
+    {
+      'source': {
+        'id': 'fox-sports',
+        'name': 'Fox Sports'
+      },
+      'author': 'Eric Williams, Carmen Vitali',
+      'title': 'Lions vs. 49ers preview, predictions: What to expect in clash of grit vs. flash',
+      'description': 'The 49ers host the Lions in the NFC Championship Game, with a trip to the Super Bowl on the line. We break down everything you need to know.',
+      'url': 'https://www.foxsports.com/stories/nfl/lions-vs-49ers-preview-predictions-what-to-expect-in-clash-of-grit-vs-flash',
+      'urlToImage': 'https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/01/1408/814/2024-01-24_Lions-49ers-preview_16x9.jpg?ve=1&tl=1',
+      'publishedAt': '2024-01-25T17:59:54Z',
+      'content': 'In the NFC Championship Game for a third straight year, the San Francisco 49ers are looking to advance to the Super Bowl for the first time since the 2019 season.\r\nIn their way are the upstart Detroi… [+9544 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Gadgethacks.com'
+      },
+      'author': 'Justin Meyers',
+      'title': 'The Best Smartphones to Buy in 2024',
+      'description': "If you're in the market for a new smartphone and want nothing but the best of the best, now's the time to act. Some of the greatest phones money can buy are being released as we speak, while others are still in their prime and will continue to be for most of …",
+      'url': 'https://smartphones.gadgethacks.com/how-to/best-smartphones-buy-2024-0385475/',
+      'urlToImage': 'https://img.gadgethacks.com/img/42/06/63841773513519/0/best-smartphones-buy-2024.1280x600.jpg',
+      'publishedAt': '2024-01-25T17:59:29Z',
+      'content': "If you're in the market for a new smartphone and want nothing but the best of the best, now's the time to act. Some of the greatest phones money can buy are being released as we speak, while others a… [+18425 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Minneapolis Star Tribune'
+      },
+      'author': 'Jerry Zgoda',
+      'title': 'Kendall Coyne Schofield, seeking a league of her own, made the call that led to the PWHL',
+      'description': "PWHL Minnesota star Kendall Coyne Schofield telephoned tennis legend and gender-equality advocate Billie Jean King in 2019, setting in motion the creation of a legitimate women's professional hockey league.",
+      'url': 'https://www.startribune.com/kendall-coyne-schofield-billie-jean-king-pwhl-minnesota-womens-pro-hockey/600338536/',
+      'urlToImage': 'https://arc.stimg.co/startribunemedia/JK4KTH3CMFCZZO6YJK74XPVPOY.JPG?h=630&w=1200&fit=crop&bg=999&crop=faces',
+      'publishedAt': '2024-01-25T17:59:14Z',
+      'content': "On consecutive days last July 4th weekend, three-time Olympian Kendall Coyne Schofield delivered her first child and celebrated the birth of a legitimate women's professional hockey league for which … [+7609 chars]"
+    },
+    {
+      'source': {
+        'id': 'espn',
+        'name': 'ESPN'
+      },
+      'author': 'Eric Moody',
+      'title': 'NBA betting: Five picks for Thursday',
+      'description': "Eric Moody breaks down his top betting picks for Thursday's seven-game NBA slate.",
+      'url': 'https://www.espn.com/espn/betting/story/_/id/39385939/2024-nba-thursday-betting-odds-tips-lines-stats-more-january-25',
+      'urlToImage': 'https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0125%2Fr1282245_1296x729_16%2D9.jpg',
+      'publishedAt': '2024-01-25T17:58:53Z',
+      'content': "Thursday night's NBA slate features seven games bettors can choose from. However, I am most fascinated in the game between the Philadelphia 76ers and Indiana Pacers. With the 76ers currently third in… [+6104 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Techpowerup.com'
+      },
+      'author': 'TheLostSwede',
+      'title': '(PR) Horizon Forbidden West Complete Edition comes to PC on March 21',
+      'description': "On March 21, you'll be able to explore the Forbidden West, battle awe-inspiring machines and encounter new tribes. Horizon Forbidden West is the beloved follow up to Guerrilla's critically acclaimed Horizon Zero Dawn, and this Complete Edition for PC also inc…",
+      'url': 'https://www.techpowerup.com/318327/horizon-forbidden-west-complete-edition-comes-to-pc-on-march-21',
+      'urlToImage': 'https://www.techpowerup.com/img/sQC0lRTc8d0T6IoD.jpg',
+      'publishedAt': '2024-01-25T17:58:26Z',
+      'content': "On March 21, you'll be able to explore the Forbidden West, battle awe-inspiring machines and encounter new tribes. Horizon Forbidden West is the beloved follow up to Guerrilla's critically acclaimed … [+2527 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Erickimphotography.com'
+      },
+      'author': 'ERIC KIM',
+      'title': 'Regrets?',
+      'description': 'As a kid,,, soooo much time squandered on video games, watching TV etc.',
+      'url': 'https://erickimphotography.com/blog/2024/01/25/regrets/',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T17:58:21Z',
+      'content': 'As a kid,,, soooo much time squandered on video games, watching TV etc.'
+    },
+    {
+      'source': {
+        'id': 'marca',
+        'name': 'Marca'
+      },
+      'author': 'marca.com',
+      'title': "Haley Cavinder's mental breakdown after trolls target her relationship with Dallas Cowboys star",
+      'description': 'Haley Cavinder, the point guard for the TCU Horned Frogs, suffered a mental breakdown after being attacked online for her relationship with the Dallas Cowboys&apos; Jake Ferguson.',
+      'url': 'https://www.marca.com/en/nfl/dallas-cowboys/2024/01/25/65b29b58e2704e6c268b4575.html',
+      'urlToImage': 'https://phantom-marca.unidadeditorial.es/988ad31618a04a0a7442f75078f0a596/resize/1200/f/webp/assets/multimedia/imagenes/2024/01/25/17062039136805.jpg',
+      'publishedAt': '2024-01-25T17:57:53Z',
+      'content': "Haley Cavinder, the point guard for the TCU Horned Frogs, suffered a mental breakdown after being attacked online for her relationship with the Dallas Cowboys' Jake Ferguson.\r\nThe revelation of the i… [+1941 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Tweakers.net'
+      },
+      'author': 'Sabine Schults',
+      'title': 'VR-studio achter Demeo werkt aan officiële Dungeons & Dragons-game voor VR',
+      'description': 'Resolution Games, de VR-studio achter Demeo en de spin-off Demeo Battles, werkt met Hasbro en Wizards of the Coast aan een <i>licensed</i> Dungeons & Dragons-VR-game.',
+      'url': 'https://tweakers.net/nieuws/217976/vr-studio-achter-demeo-werkt-aan-officiele-dungeons-en-dragons-game-voor-vr.html',
+      'urlToImage': 'https://tweakers.net/i/8Hn8LK4-IHQHHsxEFlaY0MZdb7Y=/134x134/filters:strip_exif()/i/2006395264.png?f=meta',
+      'publishedAt': '2024-01-25T17:56:23Z',
+      'content': 'Resolution Games, de VR-studio achter Demeo en de spin-off Demeo Battles, werkt met Hasbro en Wizards of the Coast aan een licensed Dungeons &amp; Dragons-VR-game.\r\nWaar Demeo op Dungeons &amp; Drago… [+395 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Freerepublic.com'
+      },
+      'author': 'American Thinker',
+      'title': 'Scientists warn of ‘Arctic zombie virus’ fixing to escape thanks to global warming: But fear not! These “scientists” already have a foolproof plan: “vaccines”',
+      'description': 'It’s official: “Scientists” have completely abandoned the established methods of their discipline and decided to peddle science fiction instead. I mean, just in the last two weeks alone, I’ve read about the umpteenth iteration of Covid, a “mutant” variation c…',
+      'url': 'https://freerepublic.com/focus/f-news/4212790/posts',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T17:55:49Z',
+      'content': 'Skip to comments.\r\nScientists warn of Arctic zombie virus fixing to escape thanks to global warming: But fear not! These scientists already have a foolproof plan: vaccinesAmerican Thinker ^\r\n | 01/25… [+4386 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Boston Herald'
+      },
+      'author': 'Tribune News Service',
+      'title': '5 player decisions besides QB facing the Chicago Bears, including Jaylon Johnson’s contract and Darnell Mooney’s future',
+      'description': 'Chicago Bears general manager Ryan Poles spent much of his end-of-season news conference discussing how he will make his upcoming decision about the quarterback position. But Poles has plenty of other roster decisions to make aside from if he will stick with …',
+      'url': 'https://www.bostonherald.com/2024/01/25/5-player-decisions-besides-qb-facing-the-chicago-bears-including-jaylon-johnsons-contract-and-darnell-mooneys-future-4/',
+      'urlToImage': 'https://www.bostonherald.com/wp-content/uploads/2024/01/202401160716TMS_____MNGTRPUB_SPORTS-5-PLAYER-DECISIONS-BESIDES-QB-FACING-5-TB5_a7596c.jpg?w=1024&h=799',
+      'publishedAt': '2024-01-25T17:55:44Z',
+      'content': 'Chicago Bears general manager Ryan Poles spent much of his end-of-season news conference discussing how he will make his upcoming decision about the quarterback position.\r\nBut Poles has plenty of oth… [+6426 chars]'
+    },
+    {
+      'source': {
+        'id': 'cbc-news',
+        'name': 'CBC News'
+      },
+      'author': None,
+      'title': '6 months from Olympics, Russians qualifying in some sports and absent in others',
+      'description': "With just six months to go until the Paris Olympics, it's still not clear if Russians will be competing and, if so, how many.",
+      'url': 'https://www.cbc.ca/sports/olympics/olympics-russia-participation-1.7094590',
+      'urlToImage': 'https://i.cbc.ca/1.7094638.1706204860!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/smirnova-anna-012524.jpg',
+      'publishedAt': '2024-01-25T17:55:24Z',
+      'content': 'With just six months to go until the Paris Olympics, it\'s still not clear if Russians will be competing and, if so, how many.\r\nRussians are qualifying for Olympic spots as "neutral athletes" in comba… [+5659 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Belloflostsouls.net'
+      },
+      'author': 'Clint Lienau',
+      'title': 'MTG: By Bow and Blade – Top 5 Elf Commanders',
+      'description': 'Be careful where you tread in the woods; in Llanowar, one bone is broken for every twig snapped underfoot. Welcome Planeswalkers and Praetors to our ongoing series about the best casual experience in Magic: Commander. For the uninitiated, Commander is a semi-…',
+      'url': 'https://www.belloflostsouls.net/2024/01/mtg-by-bow-and-blade-top-5-elf-commanders.html',
+      'urlToImage': 'https://www.belloflostsouls.net/wp-content/uploads/2024/01/Top-5-Elves.jpg',
+      'publishedAt': '2024-01-25T17:55:00Z',
+      'content': 'Be careful where you tread in the woods; in Llanowar, one bone is broken for every twig snapped underfoot.\r\nWelcome Planeswalkers and Praetors to our ongoing series about the best casual experience i… [+3522 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'iPhone in Canada'
+      },
+      'author': 'Usman Qureshi',
+      'title': 'Microsoft Initiates Layoffs, Cuts 1,900 Jobs at Activision Blizzard and Xbox',
+      'description': 'Microsoft is undergoing significant restructuring within its gaming division, resulting in the layoff of 1,900 employees at Activision Blizzard and Xbox.\nThe post Microsoft Initiates Layoffs, Cuts 1,900 Jobs at Activision Blizzard and Xbox first appeared on i…',
+      'url': 'https://www.iphoneincanada.ca/2024/01/25/microsoft-layoffs-at-activision-blizzard-xbox/',
+      'urlToImage': 'https://cdn.iphoneincanada.ca/wp-content/uploads/2017/09/iic-logo-1.svg',
+      'publishedAt': '2024-01-25T17:54:45Z',
+      'content': 'Microsoft is undergoing significant restructuring within its gaming division, resulting in the layoff of 1,900 employees at Activision Blizzard and Xbox this week, The Verge is reporting.\r\nThese job … [+1801 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Acm.org'
+      },
+      'author': 'Gregory Mone',
+      'title': 'Virtual Reality as Therapy',
+      'description': 'Leveraging precisely designed alternate realities as therapeutic tools.',
+      'url': 'https://cacm.acm.org/news/279520-virtual-reality-as-therapy/fulltext',
+      'urlToImage': 'https://cacm.acm.org/system/assets/0004/6947/011924_CACMpg14_VR-as-Therapy.large.jpg?1705689542&1705689542',
+      'publishedAt': '2024-01-25T17:54:33Z',
+      'content': 'By Gregory Mone\r\nCommunications of the ACM,\r\nFebruary 2024,\r\nVol. 67 No. 2, Pages 14-1510.1145/3638536CommentsCredit: Anna Stills\r\nA child once described their complex regional pain syndrome (CRPS) t… [+10918 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GamesRadar+'
+      },
+      'author': 'leon.hurley@futurenet.com (Leon Hurley)',
+      'title': '13 horror games coming in 2024 that prove this is the year of weird',
+      'description': 'Feature | Forget jump scares and inventory management, this year horror is all about freaky',
+      'url': 'https://www.gamesradar.com/13-horror-games-coming-in-2024-that-prove-this-is-the-year-of-weird/',
+      'urlToImage': 'https://cdn.mos.cms.futurecdn.net/SpkvtUtNEFkpe4R67nz2e-1200-80.jpg',
+      'publishedAt': '2024-01-25T17:53:48Z',
+      'content': "There are plenty of horror games that want to be Resident Evil or Silent Hill, and while that's no bad thing, it does get a bit familiar after a while. Fortunately, there's a lot of smaller games on … [+9890 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Slashdot.org'
+      },
+      'author': 'feedfeeder',
+      'title': 'Horizon Forbidden West is coming to PC on March 21',
+      'description': "Another former PlayStation 5 exclusive is coming to PC very soon. It's been known for a while that Horizon Forbidden West would be Sony's next title to make the leap, and now the company has revealed that the PC version of the game will drop on March 21.\nThis…",
+      'url': 'https://slashdot.org/firehose.pl?op=view&amp;id=172850684',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T17:53:12Z',
+      'content': "Another former PlayStation 5 exclusive is coming to PC very soon. It's been known for a while that Horizon Forbidden Westwould be Sony's next title to make the leap, and now the company has revealed … [+1115 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'TechSpot'
+      },
+      'author': 'Shawn Knight',
+      'title': 'Death Stranding gets January 30 launch date on select Apple devices',
+      'description': "The Director's Cut of Death Stranding will hit the App Store as a universal purchase that is compatible with the iPhone 15 Pro, iPhone 15 Pro Max, and iPad and macOS devices with the M1 chip or later. The game carries a Mature rating from the ESRB and will no…",
+      'url': 'https://www.techspot.com/news/101648-death-stranding-gets-january-30-launch-date-select.html',
+      'urlToImage': 'https://www.techspot.com/images2/news/bigimage/2024/01/2024-01-25-image-9.jpg',
+      'publishedAt': '2024-01-25T17:53:00Z',
+      'content': 'In a nutshell: Apple is adding another AAA game to its platform later this month. Following a brief delay from publisher 505 Games, the Hideo Kojima creation is now slated to arrive on select iOS dev… [+1757 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Zacjohnson.com'
+      },
+      'author': 'Disclaimer and DMCA',
+      'title': 'Jadeyanh Net Worth – How Much is Jadeyanh Worth?',
+      'description': 'Jadeyanh, also known as Jade-Anh Ngo, is a popular German Vietnamese Twitch streamer and Instagram model with an estimated net worth of $100k. She has a significant following on Instagram, with 333 thousand followers, and has gained 168 thousand followers on …',
+      'url': 'https://zacjohnson.com/jadeyanh-net-worth/',
+      'urlToImage': 'https://0043d976.rocketcdn.me/wp-content/uploads/2024/01/jadeyanh-net-worth.jpg',
+      'publishedAt': '2024-01-25T17:52:32Z',
+      'content': 'Jadeyanh, also known as Jade-Anh Ngo, is a popular German Vietnamese Twitch streamer and Instagram model with an estimated net worth of $100k. She has a significant following on Instagram, with 333 t… [+13815 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': '9to5Toys'
+      },
+      'author': 'Justin Kahn',
+      'title': 'Nintendo launches Jump-start January Switch game sale with deals from $6 (Up to 50% off)',
+      'description': 'As we touched on in this morning’s roundup, Nintendo has now launched a fresh new eShop sale loaded with first- and third-party Switch game deals. The official Jump-start January Sale marks the first major sale event landing on the eShop in 2024. It is set to…',
+      'url': 'https://9to5toys.com/2024/01/25/nintendo-jump-start-january-switch-eshop-game-sale/',
+      'urlToImage': 'https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2020/03/Animal-Crossing-New-Horizons-review-1.jpg?resize=1200%2C628&ssl=1',
+      'publishedAt': '2024-01-25T17:52:08Z',
+      'content': 'As we touched on in this mornings roundup, Nintendo has now launched a fresh new eShop sale loaded with first- and third-party Switch game deals. The official Jump-start January Sale marks the first … [+1283 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GlobeNewswire'
+      },
+      'author': 'Levi & Korsinsky, LLP',
+      'title': 'SHAREHOLDER ALERT: Levi &\xa0Korsinsky Notifies Roblox Corporation(RBLX)\xa0Investors of a Class Action Lawsuit and Upcoming Deadline',
+      'description': 'NEW YORK, Jan. 25, 2024 (GLOBE NEWSWIRE) -- Levi & Korsinsky, LLP notifies investors in Roblox Corporation ("Roblox" or the "Company") (NYSE: RBLX) of a class action securities lawsuit.',
+      'url': 'https://www.globenewswire.com/news-release/2024/01/25/2817263/3080/en/SHAREHOLDER-ALERT-Levi-Korsinsky-Notifies-Roblox-Corporation-RBLX-Investors-of-a-Class-Action-Lawsuit-and-Upcoming-Deadline.html',
+      'urlToImage': 'https://ml.globenewswire.com/Resource/Download/ac93d66b-f8d2-429d-9026-c5b32b0ac0ee',
+      'publishedAt': '2024-01-25T17:52:00Z',
+      'content': 'NEW YORK, Jan. 25, 2024 (GLOBE NEWSWIRE) -- Levi &amp; Korsinsky, LLP notifies investors in Roblox Corporation ("Roblox" or the "Company") (NYSE: RBLX) of a class action securities lawsuit.\r\nCLASS DE… [+2495 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GamesIndustry.biz'
+      },
+      'author': 'Jeffrey Rousseau',
+      'title': 'True Gamers secures $45m investment',
+      'description': 'Sign up for the GI Daily here to get the biggest news straight to your inbox\nEsports lounge creator True Gamers has secured a $45 million investment. \n\nThe company intends to use the funds to create more than 150 esports clubs across Saudi Arabia.\n Read more',
+      'url': 'https://www.gamesindustry.biz/true-gamers-secures-45m-investment',
+      'urlToImage': 'https://assetsio.reedpopcdn.com/true-gamers.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp',
+      'publishedAt': '2024-01-25T17:51:53Z',
+      'content': 'The resource for people who make and sell games.\r\nGamesIndustry.biz is owned by Gamer Network Limited, a ReedPop company and subsidiary of Reed Exhibitions Limited.\r\n© 2024 Gamer Network Limited, Gat… [+233 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'GamesRadar+'
+      },
+      'author': 'sam.loveridge@futurenet.com (Sam Loveridge)',
+      'title': 'Everything we know about Nintendo Switch 2',
+      'description': 'All the latest Nintendo Switch 2 news, rumors, and more',
+      'url': 'https://www.gamesradar.com/nintendo-switch-2-guide/',
+      'urlToImage': 'https://cdn.mos.cms.futurecdn.net/d8FNWtJYjjenzTCbpouhP8-1200-80.jpg',
+      'publishedAt': '2024-01-25T17:51:10Z',
+      'content': "I think everyone is ready for Nintendo Switch 2. It's been almost seven years since the launch of the Nintendo Switch back in 2017, and although it's been a success for Nintendo, it's hard to ignore … [+6219 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Bleeding Cool News'
+      },
+      'author': 'Gavin Sheehan',
+      'title': 'Airhead Set For Release This February On PC & Console',
+      'description': 'Indie game developers Octato and Massive Miniteam, and publisher HandyGames, have revealed the official release date for their latest game, Airhead. This is a Metroidvania puzzler game where you play an entity that is technically two parts come together. It w…',
+      'url': 'https://bleedingcool.com/games/airhead-set-for-release-this-february-on-pc-console/',
+      'urlToImage': 'https://bleedingcool.com/wp-content/uploads/2024/01/Airhead-Banner-2000x1125.jpg',
+      'publishedAt': '2024-01-25T17:51:08Z',
+      'content': 'Posted in: Games, Indie Games, Video Games | Tagged: Airhead, HandyGames, Massive Miniteam, Octato\r\nHandyGames confirmed the release date for their upcoming game Airhead, as the game will be released… [+2531 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Publico.es'
+      },
+      'author': 'Público / Efe',
+      'title': 'Microsoft anuncia que despedirá a 1.900 trabajadores de su sección de videojuegos',
+      'description': 'La cifra supone el 9% de la plantilla total de la empresa, que se suma a una oleada de despidos en el sector.',
+      'url': 'https://www.publico.es/economia/microsoft-anuncia-despedira-1900-trabajadores-seccion-videojuegos.html',
+      'urlToImage': 'https://www.publico.es/uploads/2024/01/25/65b29b9906d2f.jpeg',
+      'publishedAt': '2024-01-25T17:51:00Z',
+      'content': 'La empresa Microsoft ha hecho público este jueves que despedirá a 1.900 de sus trabajadores de la sección\xa0Microsoft Gaming, dedicada a los videojuegos. Esta noticia llega tres meses después de que la… [+1149 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Wccftech'
+      },
+      'author': 'Nathan Birch',
+      'title': 'Skull and Bones Open Beta Drops in February, Updated PC Specs and Year 1 Content Detailed',
+      'description': 'After countless delays, it seems Skull and Bones is actually launching for real in February, and to solidify that fact, Ubisoft has announced the details of the game’s open beta. Said beta will available on all platforms from February 8 to February 11. Crossp…',
+      'url': 'https://wccftech.com/skull-and-bones-open-beta-february-pc-requirements-year-1-content/',
+      'urlToImage': 'https://cdn.wccftech.com/wp-content/uploads/2022/07/WCCFskullandbones5.jpg',
+      'publishedAt': '2024-01-25T17:49:22Z',
+      'content': 'After countless delays, it seems Skull and Bones is actually launching for real in February, and to solidify that fact, Ubisoft has announced the details of the games open beta. Said beta will availa… [+3179 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CBS Sports'
+      },
+      'author': 'John Breech',
+      'title': '49ers will be looking to end this bizarre NFL curse when they face the Lions in 2024 NFC Championship',
+      'description': 'This curse has been crushing teams for more than a decade',
+      'url': 'https://www.cbssports.com/nfl/news/49ers-will-be-looking-to-end-this-bizarre-nfl-curse-when-they-face-the-lions-in-2024-nfc-championship/',
+      'urlToImage': 'https://sportshub.cbsistatic.com/i/r/2023/10/24/c9b811bf-c8b5-4a64-b8c6-31bbdac2f28e/thumbnail/1200x675/3ec14157ac1908e5455dbdc6538809ad/usatsi-kirk-cousins-vikings.jpg',
+      'publishedAt': '2024-01-25T17:48:45Z',
+      'content': "If the San Francisco 49ers want to win the Super Bowl this year, they're going to have to figure out a way to beat Kirk Cousins.\xa0\r\nThat might sound crazy, especially since the 49ers aren't even playi… [+4341 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Incrediblethings.com'
+      },
+      'author': 'Jimmy Bell',
+      'title': 'What Sets Winspirit Casino Apart in the Australian Market',
+      'description': 'In the big market of online casinos, Winspirit Casino is getting more popular in Australia. They’re dedicated to making sure players have a great time, and that’s why they’re standing out. This article talks about what makes Winspirit casino Australia [valid …',
+      'url': 'https://incrediblethings.com/money/casino/what-sets-winspirit-casino-apart-in-the-australian-market/',
+      'urlToImage': 'https://incrediblethings.com/wp-content/uploads/2020/11/bigstock-Casino-Background-Luxury-Casi-360642481.jpg',
+      'publishedAt': '2024-01-25T17:48:11Z',
+      'content': 'In the big market of online casinos, Winspirit Casino is getting more popular in Australia. They’re dedicated to making sure players have a great time, and that’s why they’re standing out. This artic… [+3816 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'SNY.tv'
+      },
+      'author': 'SNY',
+      'title': 'Rangers placing Nick Bonino on waivers',
+      'description': 'The Rangers are placing center Nick Bonino on waivers on Thursday.',
+      'url': 'https://sny.tv/articles/rangers-nick-bonino-waivers',
+      'urlToImage': 'https://media.zenfs.com/en/sny_articles_235/c749023acd29a0f4969a3d18c04aa5b5',
+      'publishedAt': '2024-01-25T17:47:51Z',
+      'content': 'The Rangers are shaking things up a bit.\r\nNew York is\xa0placing center Nick Bonino on waivers on Thursday.\r\n"He met with Chris Drury this morning Its the decision that was made," head coach Peter Lavio… [+844 chars]'
+    },
+    {
+      'source': {
+        'id': 'ign',
+        'name': 'IGN'
+      },
+      'author': 'Hannah Hoolihan',
+      'title': "Preorder Nintendo's New Pastel Pink Joy-Cons for Princess Peach: Showtime",
+      'description': "Nintendo's new pastel pink Joy-Cons for Princess Peach: Showtime are officially up for preorder.",
+      'url': 'https://www.ign.com/articles/nintendo-switch-pastel-pink-joy-cons-preorder',
+      'urlToImage': 'https://assets-prd.ignimgs.com/2024/01/25/pastel-pink-joy-cons-preorder-1706202728297.jpg?width=1280',
+      'publishedAt': '2024-01-25T17:47:45Z',
+      'content': "In celebration of Princess Peach: Showtime, Nintendo recently announced that they're releasing a set of pastel pink Joy-Cons that will be available alongside the game on March 22. If you're someone w… [+1457 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Pausaparafeminices.com'
+      },
+      'author': 'Bruna Tavares',
+      'title': 'ᐈ Play 100 percent free Position gossip slots casino review Game Which have Added bonus Cycles',
+      'description': 'Content The new Gorgeous Give Begin Your own Gaming Adventure Here! Scatter Position Game One of the Golden Classics Away from Igt Slots Antique Harbors Video game Work at best-rated instant-enjoy gambling establishment if you want to play really-refined casi…',
+      'url': 'https://www.pausaparafeminices.com/ppf/ᐈ-play-100-percent-free-position-gossip-slots-casino-review-game-which-have-added-bonus-cycles/',
+      'urlToImage': None,
+      'publishedAt': '2024-01-25T17:46:58Z',
+      'content': 'Work at best-rated instant-enjoy gambling establishment if you want to play really-refined casino games which have well customized images and you may impeccable voice. To be honest, either online gam… [+7113 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CNBC'
+      },
+      'author': 'Ryan Ermey',
+      'title': 'Living on $3.3 million a year in Austin and Barcelona',
+      'description': "Noah Kagan founded AppSumo in 2010 after spending a weekend with a developer building the site for $60. Last year the company's revenue was $80 million.",
+      'url': 'https://www.cnbc.com/2024/01/25/living-on-3point3-million-a-year-in-austin-and-barcelona.html',
+      'urlToImage': 'https://image.cnbcfm.com/api/v1/image/107364473-1706197175124-Nested_Sequence_0400_00_04_15Still001.jpg?v=1706197270&w=1920&h=1080',
+      'publishedAt': '2024-01-25T17:45:36Z',
+      'content': "This story is part of CNBC Make It's\xa0Millennial Money\xa0series, which details how people around the world earn, spend and save their money.\r\nNoah Kagan always wanted to be rich.\r\nAs a school-age kid, h… [+14034 chars]"
+    },
+    {
+      'source': {
+        'id': 'fox-sports',
+        'name': 'Fox Sports'
+      },
+      'author': 'Greg Auman',
+      'title': 'Panthers reportedly close to hiring Bucs OC Dave Canales as head coach',
+      'description': 'Bucs offensive coordinator Dave Canales is reportedly close to becoming a head coach, as Carolina seeks to bounce back from a 2-15 season.',
+      'url': 'https://www.foxsports.com/stories/nfl/panthers-reportedly-close-to-hiring-bucs-oc-dave-canales-as-head-coach',
+      'urlToImage': 'https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2024/01/1408/814/canales-16x9.jpg?ve=1&tl=1',
+      'publishedAt': '2024-01-25T17:45:35Z',
+      'content': "Dave Canales, who impressed in his first season as Tampa Bay's offensive coordinator, is making an even bigger leap, as the Carolina Panthers are closing in on a deal to make him their next head coac… [+2114 chars]"
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Belloflostsouls.net'
+      },
+      'author': 'J.R. Zambrano',
+      'title': 'Evil Genius Games and Netflix Settle Lawsuit over ‘Rebel Moon RPG’',
+      'description': 'Evil Genius Games has “amicably settled” a lawsuit with Netflix over a now-cancelled Rebel Moon RPG. Refunds are soon to follow. Evil Genius Games, maker of RPGs licensed from movies, including Pacific Rim,\xa0The Crow,\xa0Escape from New York, and\xa0Rambo, has settl…',
+      'url': 'https://www.belloflostsouls.net/2024/01/evil-genius-games-and-netflix-settle-lawsuit-over-rebel-moon-rpg.html',
+      'urlToImage': 'https://www.belloflostsouls.net/wp-content/uploads/2024/01/rebel-moon.jpg',
+      'publishedAt': '2024-01-25T17:45:16Z',
+      'content': 'Evil Genius Games has “amicably settled” a lawsuit with Netflix over a now-cancelled Rebel Moon RPG. Refunds are soon to follow.\r\nEvil Genius Games, maker of RPGs licensed from movies, including Paci… [+2095 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'CBS Sports'
+      },
+      'author': 'Will Backus',
+      'title': 'Chargers hire Jim Harbaugh: How ex-Michigan boss compares to other college football coaches who made NFL jump',
+      'description': "College coaches don't often fare well at the next level, but Harbaugh is a special case",
+      'url': 'https://www.cbssports.com/college-football/news/chargers-hire-jim-harbaugh-how-ex-michigan-boss-compares-to-other-college-football-coaches-who-made-nfl-jump/',
+      'urlToImage': 'https://sportshub.cbsistatic.com/i/r/2024/01/25/3e79c55c-b8fe-406b-a17c-c4acc5046732/thumbnail/1200x675/7b5ebbe44a5d78fc2703c695ee87e3cb/usatsi-22250133-1.jpg',
+      'publishedAt': '2024-01-25T17:45:12Z',
+      'content': 'Jim Harbaugh, who is off to lead the Los Angeles Chargers after winning a national championship with Michigan, is walking an increasingly rare path by jumping from college to the NFL. Since 2014, he … [+5927 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Multiplayer.it'
+      },
+      'author': 'Simone Tagliaferri',
+      'title': 'Black Forest Games, studio dei remake dei Destroy All Humans, ha licenziato il 50% dei dipendenti',
+      'description': 'I licenziamenti hanno colpito anche Black Forest Games, che ha licenziato il 50% dei suoi dipendenti: è lo studio dei remake dei Destroy All Humans.',
+      'url': 'https://multiplayer.it/notizie/black-forest-games-studio-remake-dei-destroy-all-humans-licenziato-50-dei-dipendenti.html',
+      'urlToImage': 'https://multiplayer.net-cdn.it/thumbs/images/2021/09/17/dah2_07_cropped_0_0_3290_2303_jpeg_1200x0_crop_q85.jpg',
+      'publishedAt': '2024-01-25T17:44:41Z',
+      'content': 'Nemmeno Black Forest Games, cui dobbiamo tra gli altri i due remake dei Destroy All Humans! di recente pubblicazione, è riuscita a sfuggire alla mannaia di Embracer Group, che sta continuando la sua … [+1256 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'Us Weekly'
+      },
+      'author': 'Shelby Stivale',
+      'title': 'Senior Swifties Pay Homage to Taylor Swift With ‘Swag Surfin’ Routine',
+      'description': 'This group of senior Swifties has all the right moves with their homage to Taylor Swift. Members of the Primrose Retirement Community in Sedalia, Missouri — otherwise known as The Primrose Sedalia Chiefs Cheerleaders — showed off their dance to “Swag Surfin” …',
+      'url': 'https://www.usmagazine.com/celebrity-news/news/senior-swifties-honor-taylor-swift-with-swag-surfin-routine/#article',
+      'urlToImage': 'https://www.usmagazine.com/wp-content/uploads/2024/01/Elderly-Taylor-Swift-Fans-Named-the-‘Silver-Swifties-Pay-Homage-the-Singer-With-‘Swag-Surfin-Dance0.jpg?crop=0px%2C0px%2C1998px%2C1051px&resize=1200%2C630&quality=86&strip=all',
+      'publishedAt': '2024-01-25T17:44:02Z',
+      'content': 'This group of senior Swifties has all the right moves with their homage to Taylor Swift.\r\nMembers of the Primrose Retirement Community in Sedalia, Missouri otherwise known as The Primrose Sedalia Chi… [+2916 chars]'
+    },
+    {
+      'source': {
+        'id': 'abc-news',
+        'name': 'ABC News'
+      },
+      'author': "WYATTE GRANTHAM-PHILIPS Associated Press, MATT O'BRIEN Associated Press",
+      'title': 'Microsoft lays off 1,900 employees in its gaming division following Activision Blizzard buyout',
+      'description': 'Microsoft is laying off about 1,900 employees in its gaming division, according to an internal company memo, just over three months since the tech giant completed its $69 million purchase of video game maker Activision Blizzard',
+      'url': 'https://abcnews.go.com/Technology/wireStory/microsoft-lays-off-1900-employees-gaming-division-activision-106679512',
+      'urlToImage': 'https://i.abcnewsfe.com/a/14b240ce-b487-43b7-a886-e9dbfc0daaab/wirestory_580e3f001b8c92212547a4a58056c69c_16x9.jpg?w=1600',
+      'publishedAt': '2024-01-25T17:42:55Z',
+      'content': 'NEW YORK -- NEW YORK (AP) Microsoft is laying off about 1,900 employees in its gaming division, according to an internal company memo, just over three months since the tech giant completed its $69 mi… [+2960 chars]'
+    },
+    {
+      'source': {
+        'id': None,
+        'name': 'The Sports Daily'
+      },
+      'author': 'Dan Girolamo',
+      'title': 'Who is Dave Canales? Meet New Carolina Panthers Head Coach',
+      'description': 'The Carolina Panthers are closing in on a deal to hire Tampa Bay Buccaneers offensive coordinator Dave Canales as their...\nThe post Who is Dave Canales? Meet New Carolina Panthers Head Coach appeared first on The Sports Daily.',
+      'url': 'https://thesportsdaily.com/news/dave-canales-meet-new-carolina-panthers-head-coach/',
+      'urlToImage': 'https://thesportsdaily.com/wp-content/uploads/2024/01/Tampa-Bay-Buccaneers-offensive-coordinator-Dave-Canales-.jpg',
+      'publishedAt': '2024-01-25T17:42:52Z',
+      'content': 'The Carolina Panthers are closing in on a deal to hire Tampa Bay Buccaneers offensive coordinator Dave Canales as their next head coach, NFL Network Insider Ian Rapoport reported on Thursday. Learn m… [+2193 chars]'
+    }
+  ]
+}

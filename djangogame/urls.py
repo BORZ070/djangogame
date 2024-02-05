@@ -40,6 +40,8 @@ urlpatterns = [
     path('tbot/', include('tbot.urls')),
     #blog
     path('blogs/', include('blog.urls')),
+    #news
+    path('news/', include('news.urls')),
 
 ]
 

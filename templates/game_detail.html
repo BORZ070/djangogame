@@ -1,6 +1,5 @@
 {% extends 'base_site.html' %}
 {% block content %}
-
 <head>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -8,10 +7,45 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-{% load thumbnail %}
+{#{% load thumbnail %}#}
+{#<body>#}
+{#    <a><img src="{% thumbnail game.image 500x500 crop %}" class="card-img-top"></a>#}
+{#<br>#}
+{#{{ game.name }}#}
+{#<br>#}
+{#info: {{ game.info|safe }}#}
+{##}
+{# Кнопка лайка #}
+{#<form action="{% url 'games_like' %}" method="POST">#}
+{##}
+{#    {% csrf_token %}#}
+{#    <input type="hidden" name="user_id" value="{{ request.user.id }}">#}
+{#    <input type="hidden" name="game_id" value="{{ game.id }}">#}
+{#    like: <span id="like-count">{{ like_count }}</span>#}
+{#    <button type="submit" id="button_label">{{ button_label }}</button>#}
+{##}
+{#</form>#}
+{#    <br>#}
+{# Кнопки избранного #}
+{#<form action="{% url 'games_favourite' %}" method="POST">#}
+{##}
+{#    {% csrf_token %}#}
+{#    <input type="hidden" name="user_id" value="{{ request.user.id }}">#}
+{#    <input type="hidden" name="game_id" value="{{ game.id }}">#}
+{#    <button type="submit" id="f_button_label">{{ f_button_label }}</button>#}
+{##}
+{#</form>#}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+
+        {% load thumbnail %}
 <body>
-    <a><img src="{% thumbnail game.image 100x100 crop %}" class="card-img-top"></a>
+    <a><img src="{% thumbnail game.image 900x900 crop %}" class="card-img-top"></a>
 <br>
+    <div class="content">
 {{ game.name }}
 <br>
 info: {{ game.info|safe }}
@@ -36,8 +70,11 @@ info: {{ game.info|safe }}
     <button type="submit" id="f_button_label">{{ f_button_label }}</button>
 
 </form>
-
-
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
