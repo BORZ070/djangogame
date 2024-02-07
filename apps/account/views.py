@@ -59,6 +59,9 @@ def edit(request):
     return render(request, 'account/edit.html', {'user_form':user_form, 'profile_form':profile_form})
 
 
+def uuid_validater(request, uuid):
+    profile = Profile.objects.filter(uuid=uuid).exists()
+    return HttpResponse(profile)
 
 
 

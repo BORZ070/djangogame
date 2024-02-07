@@ -1,6 +1,1 @@
-import pickle
-
-
-with open('news_dump', 'rb') as file:
-    news_data = pickle.load(file)
-print(news_data)
+http://127.0.0.1:8000/account/uuid/31815d0e-6dc8-49d8-8379-8aafe9033d70/

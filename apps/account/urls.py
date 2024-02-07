@@ -1,8 +1,7 @@
 # from account.views import login_views
 from django.urls import path
 from django.contrib.auth import views as auth_views
-
-from account.views import dashboard, register, edit
+from account.views import dashboard, register, edit, uuid_validater
 
 urlpatterns = [
     # login_path
@@ -23,5 +22,7 @@ urlpatterns = [
     #edit
     path('edit/',edit, name='edit'),
     # profile
-    path('', dashboard, name='dashboard')
+    path('', dashboard, name='dashboard'),
+    path('uuid/<uuid:uuid>/', uuid_validater, name='uuid_validater')
+
 ]
