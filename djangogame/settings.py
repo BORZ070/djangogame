@@ -2,6 +2,7 @@ import os
 import sys
 from pathlib import Path
 import environ
+from celery.schedules import crontab
 
 env = environ.Env()
 
@@ -182,4 +183,11 @@ REST_FRAMEWORK = {
 
 CELERY_BROKER_URL = 'redis://redis:6379/0'
 CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
+
+CELERY_BEAT_SCHEDULE = {
+    'get_news_every_hour': {
+        'task': 'apps.news.tasks.news_update_dump',
+        'schedule': crontab(minute=0, hour='*')
+    }
+}
 

@@ -60,6 +60,7 @@ def edit(request):
 
 
 def uuid_validater(request, uuid):
+
     profile = Profile.objects.filter(uuid=uuid).exists()
     return HttpResponse(profile)
 
