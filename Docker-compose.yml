@@ -40,6 +40,14 @@ services:
     depends_on:
       - web
 
+  beat:
+    build: .
+    command: celery -A djangogame beat -l info
+    volumes:
+      - .:/code
+    depends_on:
+      - web
+
 volumes:
   redis_data:
   postgres_data:

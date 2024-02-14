@@ -5,7 +5,7 @@ from django.core.mail import send_mail
 @shared_task
 def send_mails_all_user_celery():
 
-    for _ in range(10001):
+    for _ in range(1001):
         if True:
             email_subject = 'instance.title'
             message = 'instance.text'
