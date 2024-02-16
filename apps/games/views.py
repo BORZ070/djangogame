@@ -7,7 +7,7 @@ from games.models import Like, Game, Favourite
 def list_views(request):
     games_with_like_count = Game.objects.annotate(like_count=Count('like'))
 
-    return render(request, 'games_list_new.html', {'games_with_like_count':games_with_like_count})
+    return render(request, 'games_list_new.html', {'games_with_like_count': games_with_like_count})
 
 
 def detail_views(request, pk):
@@ -27,7 +27,7 @@ def detail_views(request, pk):
     else:
         f_button_label = 'Favorite'
 
-    return render(request,'game_detail.html', {'game':game, 'like_count':like_count, 'button_label':button_label, 'f_button_label':f_button_label})
+    return render(request,'game_detail.html', {'game': game, 'like_count': like_count, 'button_label': button_label, 'f_button_label': f_button_label})
 
 
 def like_game_views(request):
@@ -45,7 +45,7 @@ def like_game_views(request):
 
     like_count = Game.objects.get(id=game_id).like_set.count()
 
-    return JsonResponse({'like_count':like_count, 'button_label':button_label})
+    return JsonResponse({'like_count': like_count, 'button_label': button_label})
 
 
 
@@ -63,4 +63,4 @@ def favourite_game_views(request):
         game_favourite.save()
         f_button_label = 'Unfavorire'
 
-    return JsonResponse({'f_button_label':f_button_label})
+    return JsonResponse({'f_button_label': f_button_label})
