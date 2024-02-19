@@ -49,10 +49,13 @@ INSTALLED_APPS = [
     'mail_sender',
     'blog',
     'news',
+    'redisboard',
+    'debug_toolbar',
 
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -60,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'djangogame.urls'
@@ -196,3 +200,5 @@ CACHES = {'default': {
     'BACKEND': 'django.core.cache.backends.redis.RedisCache',
     'LOCATION': 'redis://redis:6379/1'}}
 
+
+INTERNAL_IPS = ['127.0.0.1']
