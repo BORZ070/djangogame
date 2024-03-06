@@ -15,16 +15,21 @@ def list_views(request):
 
 def detail_views(request, pk):
     game = Game.objects.get(pk=pk)
-    like_count = len(game.like_set.all())
+
+    like_count = cache.get('like_count')
+    if not like_count:
+        like_count = len(game.like_set.all())
+        cache.set('like_count', like_count, timeout=None)
 
     self_like = cache.get('self_like')
     if not self_like:
-
         self_like = Like.objects.filter(user_id=request.user.id, game_id=pk).exists()
-        if self_like:
-            button_label = 'Unlike'
-        else:
-            button_label = 'Like'
+        cache.set('self_like', self_like, timeout=None)
+
+    if self_like:
+        button_label = 'Unlike'
+    else:
+        button_label = 'Like'
 
     self_favorite = cache.get('self_favorite')
     if not self_favorite:
