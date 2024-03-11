@@ -1,0 +1,29 @@
+{% extends 'base_site.html' %}
+{% block content %}
+
+
+<section class="section">
+{#  <div class="container">#}
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>List of favorites user {{ user.username }}</h2>
+        <div class="section-border"></div>
+
+        <h3>{{ favorites_count }}</h3>
+
+          {% for favorite in favorites %}
+            <a href="{{ favorite.game.get_absolute_url }}">{{ favorite.game.name }}</a> <br><br>
+            {% endfor %}
+      </div>
+    </div>
+{#    <div class="row">#}
+{#      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">#}
+{#        <article class="card">#}
+
+{#        </article>#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
+</section>
+
+{% endblock %}

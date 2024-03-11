@@ -19,8 +19,8 @@ print(len(x))
 # if TableOne.objects.all().count() < 100000:
 #     for i in range(100000):
 #         TableOne.objects.create(title='x', info=i)
-#
-#
+
+
 # if TableTwo.objects.all().count() < 100000:
 #     for i in range(100000):
 #         try:

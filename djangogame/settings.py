@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'redisboard',
     'debug_toolbar',
     'temp_app',
+    'favorite',
 
 
 ]
@@ -93,23 +94,23 @@ WSGI_APPLICATION = 'djangogame.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql",
-#         "NAME": "postgres",
-#         "USER": "postgres",
-#         "PASSWORD": "postgres",
-#         "HOST": "db",  # set in docker-compose.yml
-#         "PORT": 5432,  # default postgres port
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "postgres",
+        "HOST": "db",  # set in docker-compose.yml
+        "PORT": 5432,  # default postgres port
+    }
+}
 
 
 # Password validation
@@ -192,8 +193,8 @@ CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
 
 CELERY_BEAT_SCHEDULE = {
     'get_news_every_hour': {
-        'task': 'apps.news.tasks.news_update_dump',
-        'schedule': crontab(minute=0, hour='*')
+        'task': 'news.tasks.news_update_dump',
+        'schedule': 3600.0
     }
 }
 

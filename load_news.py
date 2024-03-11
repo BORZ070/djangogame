@@ -14,3 +14,5 @@ with open('news_dump', 'wb') as file:
     pickle.dump(news_json, file)
 
 
+
+

@@ -4,7 +4,8 @@ from django.core.cache import cache
 
 
 def news_list(request):
-    news_all = cache.get('news_all')
+    # news_all = cache.get('news_all')
+    news_all = False
     if not news_all:
         with open('news_dump', 'rb') as file:
             data = pickle.load(file)

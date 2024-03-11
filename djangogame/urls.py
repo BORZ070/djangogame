@@ -46,6 +46,8 @@ urlpatterns = [
     path('_debug_/', include('debug_toolbar.urls')),
     #temp
     path('temp/', include('temp_app.urls')),
+    #favorite
+    path('favorite/', include('favorite.urls'))
 
 ]
 
