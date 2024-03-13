@@ -1,1 +1,5 @@
-# http://127.0.0.1:8000/account/uuid/31815d0e-6dc8-49d8-8379-8aafe9033d70/
+def sum(a, b):
+    x = a + b
+    print(x)
+
+sum(b=5, a=6)
