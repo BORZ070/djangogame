@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 from games.models import Favourite
 
-
 from django.core.cache import cache
 
 
@@ -19,4 +18,4 @@ def favorite_views(request):
         favorites_count = len(favorites)
         cache.set(f'favorites_count_{user.id}', favorites_count, timeout=None)
 
-    return render(request, 'favorite_index.html', {'user': user, 'favorites': favorites, 'favorites_count':favorites_count})
+    return render(request, 'favorite_index.html', {'user': user, 'favorites': favorites, 'favorites_count': favorites_count})

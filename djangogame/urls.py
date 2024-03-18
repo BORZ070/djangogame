@@ -47,7 +47,9 @@ urlpatterns = [
     #temp
     path('temp/', include('temp_app.urls')),
     #favorite
-    path('favorite/', include('favorite.urls'))
+    path('favorite/', include('favorite.urls')),
+    #like
+    path('like/', include('like.urls')),
 
 ]
 

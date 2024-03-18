@@ -19,7 +19,7 @@ class Game(models.Model):
     data_create = models.DateTimeField(auto_now_add=True)
     data = models.CharField(max_length=50)
     genre = models.ForeignKey(Genre, on_delete=models.PROTECT)
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, db_index=True)
     info = models.TextField()
     publisher = models.ForeignKey(Publisher, on_delete=models.PROTECT)
     image = models.ImageField(upload_to='game_main')
