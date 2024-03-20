@@ -70,6 +70,16 @@ info: {{ game.info|safe }}
     <button type="submit" id="f_button_label">{{ f_button_label }}</button>
 
 </form>
+    <br>
+{# Кнопка корзины #}
+<form action="{% url 'games_basket' %}" method="POST">
+
+    {% csrf_token %}
+    <input type="hidden" name="user_id" value="{{ request.user.id }}">
+    <input type="hidden" name="game_id" value="{{ game.id }}">
+    <button type="submit" id="bask_button_label">{{ bask_button_label }}</button>
+
+</form>
         </div>
       </div>
     </div>
@@ -97,9 +107,11 @@ $(document).ready(function() {
                 var newLikeCount = response.like_count;  // сервер возвращает новое количество лайков.
                 var newButton_label = response.button_label;  // сервер возвращает новое имя кнопки
                 var f_newButton_label = response.f_button_label;  // F_сервер возвращает новое имя кнопки
+                var bask_newButton_label = response.bask_button_label;  // bask_сервер возвращает новое имя кнопки
                 $('#like-count').text(newLikeCount);  // Обновляет отображаемое количество лайков.
                 $('#button_label').text(newButton_label);  // Обновляет отображаемое имя кнопки.
                 $('#f_button_label').text(f_newButton_label);  // F_Обновляет отображаемое имя кнопки.
+                $('#bask_button_label').text(bask_newButton_label);  // bask_Обновляет отображаемое имя кнопки.
             },
             error: function(xhr, status, error) {
                 console.error(error);
@@ -110,5 +122,4 @@ $(document).ready(function() {
 </script>
 
 </body>
-
 {% endblock %}

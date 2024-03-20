@@ -50,6 +50,10 @@ urlpatterns = [
     path('favorite/', include('favorite.urls')),
     #like
     path('like/', include('like.urls')),
+    #basket
+    path('basket/', include('basket.urls')),
+    #order
+    path('order/', include('order.urls'))
 
 ]
 

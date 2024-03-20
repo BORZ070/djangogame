@@ -1,0 +1,29 @@
+{% extends 'base_site.html' %}
+{% block content %}
+
+<section class="section">
+{#  <div class="container">#}
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Order {{ user.username }}</h2>
+        <div class="section-border"></div>
+
+        <h3>{{ baskets_count }}</h3>
+
+          {% for basket in baskets %}
+            <a href="{{ basket.game.get_absolute_url }}">{{ basket.game.name }}</a> <br><br>
+            {% endfor %}
+
+      <form action="{% url 'order' %}" method="POST">
+    {% csrf_token %}
+    <input type="hidden" name="user_id" value="{{ request.user.id }}">
+    <button type="submit" id="order_button_label">pay</button>
+      </form>
+
+    <br>
+
+      </div>
+    </div>
+</section>
+
+{% endblock %}

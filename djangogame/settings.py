@@ -53,7 +53,9 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'temp_app',
     'favorite',
-    'like'
+    'like',
+    'basket',
+    'order',
 
 
 ]
@@ -84,6 +86,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'basket.context_processors.sample'
             ],
         },
     },

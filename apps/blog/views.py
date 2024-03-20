@@ -28,7 +28,4 @@ def edit_blog(request, pk):
     else:
         form = BlogEditForm(instance=blog)
 
-
-
-
     return render(request, 'edit_blog.html', {'form':form, 'blog':blog})
