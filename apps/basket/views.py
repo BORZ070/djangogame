@@ -44,8 +44,13 @@ def basket_views(request):
 
 def basket_clearing(request):
     user_id = request.POST.get('user_id')
-    game_basket = Basket.objects.filter(user_id=user_id)
-    game_basket.delete()
+    game_id = request.POST.get('game_id')
+    if game_id:
+        game_basket = Basket.objects.filter(user_id=user_id, game_id=game_id)
+        game_basket.delete()
+    else:
+        game_basket = Basket.objects.filter(user_id=user_id)
+        game_basket.delete()
 
     return redirect('basket')
 

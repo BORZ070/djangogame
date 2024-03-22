@@ -11,7 +11,14 @@
         <h3>{{ baskets_count }}</h3>
 
           {% for basket in baskets %}
-            <a href="{{ basket.game.get_absolute_url }}">{{ basket.game.name }} {{ basket.game.price }}</a> <br><br>
+            <a href="{{ basket.game.get_absolute_url }}">{{ basket.game.name }} {{ basket.game.price }}
+                <form action="{% url 'basket_clearing' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" name="user_id" value="{{ request.user.id }}">
+                    <input type="hidden" name="game_id" value="{{ basket.game.id }}">
+                    <button type="submit" id="clear_button_label">clear</button>
+                </form>
+            </a> <br><br>
             {% endfor %}
           <h4>Total summ:<br>{{ total_sum }}</h4>
 
@@ -26,7 +33,7 @@
       <form action="{% url 'basket_clearing' %}" method="POST">
     {% csrf_token %}
     <input type="hidden" name="user_id" value="{{ request.user.id }}">
-    <button type="submit" id="clear_button_label">clear</button>
+    <button type="submit" id="clear_button_label">all clear</button>
       </form>
 
       </div>
