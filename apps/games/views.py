@@ -76,17 +76,17 @@ def favourite_game_views(request):
     return JsonResponse({'f_button_label': f_button_label})
 
 
-def basket_game_views(request):
-    user_id = request.POST.get('user_id')
-    game_id = request.POST.get('game_id')
-    self_basket = Basket.objects.filter(user_id=user_id, game_id=game_id).exists()
-    if self_basket:
-        game_basket = Basket.objects.filter(user_id=user_id, game_id=game_id)
-        game_basket.delete()
-        bask_button_label = 'Basket'
-    else:
-        game_basket = Basket(user_id=user_id, game_id=game_id)
-        game_basket.save()
-        bask_button_label = 'Unbasket'
-
-    return JsonResponse({'bask_button_label': bask_button_label})
+# def basket_game_views(request):
+#     user_id = request.POST.get('user_id')
+#     game_id = request.POST.get('game_id')
+#     self_basket = Basket.objects.filter(user_id=user_id, game_id=game_id).exists()
+#     if self_basket:
+#         game_basket = Basket.objects.filter(user_id=user_id, game_id=game_id)
+#         game_basket.delete()
+#         bask_button_label = 'Basket'
+#     else:
+#         game_basket = Basket(user_id=user_id, game_id=game_id)
+#         game_basket.save()
+#         bask_button_label = 'Unbasket'
+#
+#     return JsonResponse({'bask_button_label': bask_button_label})

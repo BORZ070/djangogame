@@ -2,7 +2,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
-from games.views import list_views, detail_views, like_game_views, favourite_game_views, basket_game_views
+from games.views import list_views, detail_views, like_game_views, favourite_game_views
+from basket.views import basket_game_views
+
 
 # index/games/...
 urlpatterns = [
