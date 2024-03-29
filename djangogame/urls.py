@@ -53,7 +53,9 @@ urlpatterns = [
     #basket
     path('basket/', include('basket.urls')),
     #order
-    path('order/', include('order.urls'))
+    path('order/', include('order.urls')),
+    #pay
+    path('pay/', include('pay.urls')),
 
 ]
 

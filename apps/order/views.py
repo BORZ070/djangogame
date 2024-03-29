@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from basket.models import Basket
 from order.models import OrderNumber, OrderItem
@@ -14,5 +14,12 @@ def order_views(request):
         new_order = OrderItem(user=user, game=game, game_name=game.name, game_price=game.price,
                               order_number=new_order_number)
         new_order.save()
+    items.delete()
+    order_items = OrderItem.objects.filter(order_number=new_order_number)
 
-    return render(request, 'order.html')
+    total_sum = 0
+    for order_item in order_items:
+        game_price = order_item.game_price
+        total_sum += game_price
+    return render(request, 'order.html', {'new_order_number': new_order_number, 'order_items': order_items, 'total_sum':total_sum})
+

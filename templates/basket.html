@@ -20,12 +20,12 @@
                 </form>
             </a> <br><br>
             {% endfor %}
-          <h4>Total summ:<br>{{ total_sum }}</h4>
+          <h4>Total amount:<br>{{ total_sum }}</h4>
 
       <form action="{% url 'order' %}" method="POST">
     {% csrf_token %}
     <input type="hidden" name="user_id" value="{{ request.user.id }}">
-    <button type="submit" id="order_button_label">buy</button>
+    <button type="submit" id="order_button_label">ordering</button>
       </form>
 
     <br>

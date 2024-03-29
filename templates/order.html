@@ -8,12 +8,13 @@
         <h2>Order {{ user.username }}</h2>
         <div class="section-border"></div>
 
-        <h3>{{ baskets_count }}</h3>
+        <h3>{{ new_order_number }}</h3>
 
-          {% for basket in baskets %}
-            <a href="{{ basket.game.get_absolute_url }}">{{ basket.game.name }}</a> <br><br>
+          {% for order_item in order_items %}
+            <a>{{ order_item.game_name }}</a>
+              <a>{{ order_item.game_price }}</a> <br><br>
             {% endfor %}
-
+        <h4>Total amount:<br>{{ total_sum }}</h4>
       <form action="{% url 'order' %}" method="POST">
     {% csrf_token %}
     <input type="hidden" name="user_id" value="{{ request.user.id }}">
@@ -22,6 +23,15 @@
 
     <br>
 
+    <form action="{% url 'pay' %}" method="post">
+    {% csrf_token %}
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_51OziNsDWLasGw3aeLZ9udVfQgtIstQfKT3DMi6b6P3uczlX75YMae0SL0yl2iXhy1vzW7UVnSXnPDvekyOXCgKKU00ApChybPM"
+            data-description="xxx"
+            data-amount="1000"
+            data-locale="auto">
+</script>
+</form>
       </div>
     </div>
 </section>
