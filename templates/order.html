@@ -27,10 +27,11 @@
     {% csrf_token %}
     <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             data-key="pk_test_51OziNsDWLasGw3aeLZ9udVfQgtIstQfKT3DMi6b6P3uczlX75YMae0SL0yl2iXhy1vzW7UVnSXnPDvekyOXCgKKU00ApChybPM"
-            data-description="xxx"
-            data-amount="1000"
+            data-description="yyy"
+            data-amount={{ paying_sum }}
             data-locale="auto">
 </script>
+    <br><input type="hidden" name="order_id" value={{ new_order_number }}>
 </form>
       </div>
     </div>

@@ -21,5 +21,7 @@ def order_views(request):
     for order_item in order_items:
         game_price = order_item.game_price
         total_sum += game_price
-    return render(request, 'order.html', {'new_order_number': new_order_number, 'order_items': order_items, 'total_sum':total_sum})
+
+    paying_sum = total_sum * 100
+    return render(request, 'order.html', {'new_order_number': new_order_number, 'order_items': order_items, 'total_sum': total_sum, 'paying_sum': paying_sum})
 

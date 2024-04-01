@@ -7,7 +7,7 @@ from blog.models import Blog
 from games.models import Game, Genre, Publisher, Like as LikeGame
 from articles.models import Article, Like
 from rest_framework.viewsets import ModelViewSet
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.pagination import PageNumberPagination
 
 
