@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.core.cache import cache
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
@@ -5,7 +6,7 @@ from django.shortcuts import render, redirect
 from basket.models import Basket
 from games.models import Game
 
-
+@login_required
 def basket_views(request):
     user = request.user
 

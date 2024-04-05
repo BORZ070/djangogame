@@ -49,7 +49,7 @@ class PaginatorArticle(PageNumberPagination):
 class ArticleModelViewSet(ModelViewSet):
     serializer_class = ArticleSerializers
     queryset = Article.objects.all()
-    # permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated]
     pagination_class = PaginatorArticle
 
 
