@@ -19,6 +19,7 @@ class OrderItem(models.Model):
     game_name = models.CharField(max_length=50)
     game_price = models.IntegerField()
     order_number = models.ForeignKey(OrderNumber, on_delete=models.PROTECT)
+    payed = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'{self.user} - {self.game}'
+        return f'{self.user} - {self.game} - {self.payed}'
