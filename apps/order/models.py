@@ -8,6 +8,7 @@ class OrderNumber(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.PROTECT, blank=True, null=True)
     user_name = models.CharField(max_length=50)
     user_id_int = models.IntegerField()
+    payed = models.BooleanField(default=False)
 
     def __str__(self):
         return f'{self.id}'

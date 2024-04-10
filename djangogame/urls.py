@@ -56,6 +56,8 @@ urlpatterns = [
     path('order/', include('order.urls')),
     #pay
     path('pay/', include('pay.urls')),
+    #shoping_cabinet
+    path('cabinet', include('shopping_cabinet.urls'))
 
 ]
 

@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'like',
     'basket',
     'order',
+    'shopping_cabinet'
 
 
 ]

@@ -1,0 +1,8 @@
+{% extends 'base_site.html' %}
+{% block content %}
+
+    {% for all_user_order_numbers in all_user_order_number %}
+        {{ all_user_order_numbers.id }}<br>
+    {% endfor %}
+{{ item_for_number }}
+{% endblock %}
