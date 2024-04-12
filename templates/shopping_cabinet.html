@@ -1,8 +1,18 @@
 {% extends 'base_site.html' %}
 {% block content %}
 
-    {% for all_user_order_numbers in all_user_order_number %}
-        {{ all_user_order_numbers.id }}<br>
+<section class="section">
+{#  <div class="container">#}
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2>Cabinet {{ user.username }}</h2>
+
+{% for order in orders %}
+    <div class="section-border"></div>
+    <h3>{{ order }}</h3> <br>
+    {% for order_item in order.orderitem_set.all %}
+    <a href="">{{ order_item.game_name }}</a> <br>
     {% endfor %}
-{{ item_for_number }}
+  {% endfor %}
+</section>
 {% endblock %}
