@@ -9,10 +9,12 @@
 
 {% for order in orders %}
     <div class="section-border"></div>
-    <h3>{{ order }}</h3> <br>
+    <h3>{{ order }}</h3> {{ order.payed }} <br>
     {% for order_item in order.orderitem_set.all %}
     <a href="">{{ order_item.game_name }}</a> <br>
     {% endfor %}
   {% endfor %}
+      </div>
+    </div>
 </section>
 {% endblock %}

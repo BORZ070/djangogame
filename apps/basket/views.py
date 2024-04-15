@@ -65,3 +65,5 @@ def basket_clearing(request):
 
     return redirect('basket')
 
+
+
