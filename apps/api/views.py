@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 from account.models import Profile
-from api.serializers import GameSerializers, ArticleSerializers, AccountSerializers, GenreSerializers, \
+from api.serializers import GameSerializers,GameCreateSerializers, ArticleSerializers, AccountSerializers, GenreSerializers, \
     PublisherSerializers, LikeArticleSerializers, LikeGameSerializers, BLogSerializers
 from blog.models import Blog
 from games.models import Game, Genre, Publisher, Like as LikeGame
@@ -17,6 +17,12 @@ class GameModelViewSet(ModelViewSet):
     queryset = Game.objects.all()
     # permission_classes = [IsAuthenticated]
     http_method_names = ['get']
+
+
+class GameCreateModelViewSet(ModelViewSet):
+    serializer_class = GameCreateSerializers
+    queryset = Game.objects.all()
+    http_method_names = ['post']
 
 
 class GenreModelViewSet(ModelViewSet):

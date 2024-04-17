@@ -22,7 +22,7 @@ class Game(models.Model):
     name = models.CharField(max_length=50, db_index=True)
     info = models.TextField()
     publisher = models.ForeignKey(Publisher, on_delete=models.PROTECT)
-    image = models.ImageField(upload_to='game_main')
+    image = models.ImageField(upload_to='game_main', blank=True, null=True)
     price = models.IntegerField()
     # tag
 

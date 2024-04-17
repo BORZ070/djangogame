@@ -25,6 +25,7 @@ class GameSerializers(serializers.ModelSerializer):
     genre = GenreSerializers()
     publisher = PublisherSerializers()
     like_count = serializers.SerializerMethodField()
+    # image = serializers.CharField(read_only=True)
     class Meta:
         model = Game
         fields = [
@@ -35,7 +36,7 @@ class GameSerializers(serializers.ModelSerializer):
             'genre',
             'info',
             'publisher',
-            'image',
+            # 'image',
             'price',
             'like_count',
         ]
@@ -43,6 +44,22 @@ class GameSerializers(serializers.ModelSerializer):
     @staticmethod
     def get_like_count(obj):
         return obj.like_set.all().count()
+
+
+class GameCreateSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = Game
+        fields = [
+            'data_create',
+            'data',
+            'genre',
+            'name',
+            'info',
+            'publisher',
+            'image',
+            'price',
+        ]
+
 
 
 class LikeGameSerializers(serializers.ModelSerializer):
