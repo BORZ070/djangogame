@@ -36,7 +36,7 @@ class GameSerializers(serializers.ModelSerializer):
             'genre',
             'info',
             'publisher',
-            # 'image',
+            'image',
             'price',
             'like_count',
         ]
@@ -47,6 +47,9 @@ class GameSerializers(serializers.ModelSerializer):
 
 
 class GameCreateSerializers(serializers.ModelSerializer):
+    # genre = GenreSerializers()
+    # publisher = PublisherSerializers()
+
     class Meta:
         model = Game
         fields = [
@@ -59,7 +62,6 @@ class GameCreateSerializers(serializers.ModelSerializer):
             'image',
             'price',
         ]
-
 
 
 class LikeGameSerializers(serializers.ModelSerializer):

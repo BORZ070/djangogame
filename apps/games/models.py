@@ -9,11 +9,13 @@ class Genre(models.Model):
     def __str__(self):
         return self.genre
 
+
 class Publisher(models.Model):
     publisher = models.CharField(max_length=50)
 
     def __str__(self):
         return self.publisher
+
 
 class Game(models.Model):
     data_create = models.DateTimeField(auto_now_add=True)
@@ -31,6 +33,7 @@ class Game(models.Model):
 
     def get_absolute_url(self):
         return reverse('games_detail', args=[self.pk])
+
 
 class Platform(models.Model):
     platform = models.CharField(max_length=50)
