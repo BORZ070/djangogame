@@ -61,6 +61,7 @@ class GameCreateSerializers(serializers.ModelSerializer):
             'publisher',
             'image',
             'price',
+            'files',
         ]
 
 

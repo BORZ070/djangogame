@@ -26,6 +26,7 @@ class Game(models.Model):
     publisher = models.ForeignKey(Publisher, on_delete=models.PROTECT)
     image = models.ImageField(upload_to='game_main', blank=True, null=True)
     price = models.IntegerField()
+    files = models.FileField(upload_to='game_files', blank=True, null=True)
     # tag
 
     def __str__(self):
