@@ -39,6 +39,7 @@ class GameSerializers(serializers.ModelSerializer):
             'image',
             'price',
             'like_count',
+            'files',
         ]
 
     @staticmethod
