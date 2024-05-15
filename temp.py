@@ -1,13 +1,16 @@
-def parent_detail(request, order_number_id):
-    order_number = Order_number.objects.get(id=order_number_id)
-    return render(request, 'order_number_detail.html', {'order_number': order_number})
+import random
+import string
 
 
-<h1>{{ order_number.name }}</h1>
+def code_generation():
+    return ''.join(random.choices(string.ascii_uppercase + string.digits, k=4))
 
-<h2>order_item:</h2>
-<ul>
-  {% for order_item in order_number.order_item_set.all %}
-    <li>{{ order_item.name }}</li>
-  {% endfor %}
-</ul>
+code_1 = code_generation()
+counter = 0
+for i in range(2000000):
+    code_flow = code_generation()
+    if code_flow == code_1:
+        counter += 1
+    print(i)
+print(code_1)
+print(counter)
